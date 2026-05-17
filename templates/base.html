@@ -1,0 +1,223 @@
+{% from "components/logo.html" import logo %}
+{% from "components/icons.html" import hamburger, clear, magnifying_glass, star, paw, angle_right, up_right_from_square, sun, moon, pinterest, youtube, instagram, twitter_x, facebook, link, envelope %}
+<!DOCTYPE html>
+<html lang="{% block lang %}en-US{% endblock %}" class="scroll-smooth">
+  <head>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZXETWR799W"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-ZXETWR799W');
+    </script>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{% block title %}Bupora | Dog Lifestyle, Cozy Inspiration & Everyday Moments{% endblock %}</title>
+
+    <meta name="description" content="{% block description %}A cozy corner for dog lovers featuring lifestyle inspiration, everyday moments, aesthetic content, and heartfelt stories celebrating the bond between humans and dogs.{% endblock %}">
+
+    <meta name="author" content="Bupora">
+    
+    {% block canonical %}
+      <link rel="canonical" href="{{ request.url_root.rstrip('/') }}{{ request.path }}">
+    {% endblock %}
+
+    <!-- Robots -->
+    <meta name="robots" content="{% block robots %}index,follow,max-image-preview:large{% endblock %}">
+
+    <meta name="color-scheme" content="light">
+
+    <!-- Theme color (mobile browser) -->
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#F9FAFB">
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0F172A">
+    
+    <!-- Open Graph (Facebook / Discord / Slack / iMessage) -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Bupora">
+    <meta property="og:locale" content="en_US">
+
+    <meta property="og:title" content="{% block og_title %}Bupora{% endblock %}">
+    <meta property="og:description" content="{% block og_description %}Dog breed guides, care tips, and lifestyle inspiration for people who love their dogs.{% endblock %}">
+    <meta property="og:url" content="{{ request.url_root.rstrip('/') }}{{ request.path }}">
+
+    <meta property="og:image" content="{% block og_image %}{{ url_for('static', filename='og-image.jpg', _external=True) }}{% endblock %}">
+    <meta property="og:image:alt" content="{% block og_image_alt %}Life with dogs — Bupora{% endblock %}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:secure_url" content="{{ url_for('static', filename='og-image.jpg', _external=True) }}">
+
+    <!-- Twitter Card (X, Discord) -->
+    <meta name="twitter:card" content="summary_large_image">
+
+    <meta name="twitter:site" content="@thebupora">
+    <meta name="twitter:creator" content="@thebupora">
+
+    <meta name="twitter:title" content="{% block twitter_title %}Bupora{% endblock %}">
+    <meta name="twitter:description" content="{% block twitter_description %}Dog breed guides, care tips, and lifestyle inspiration for people who love their dogs.{% endblock %}">
+    <meta name="twitter:image" content="{% block twitter_image %}{{ url_for('static', filename='og-image.jpg', _external=True) }}{% endblock %}">
+    <meta name="twitter:image:alt" content="{% block twitter_image_alt %}Life with dogs — Bupora{% endblock %}">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="{{ url_for('static', filename='favicon.svg') }}">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <link rel="apple-touch-icon" href="{{ url_for('static', filename='apple-touch-icon.png') }}">
+    
+    <!-- Emotional lifestyle Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600&family=Source+Code+Pro:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="preload" href="{{ url_for('static', filename='style.css') }}" as="style">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    {% block extra_css %}{% endblock %}
+
+    <!-- Structured Data (SEO) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "@id": "{{ request.url_root.rstrip('/') }}/#organization",
+        "name": "Bupora",
+        "url": "{{ request.url_root.rstrip('/') }}",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "{{ url_for('static', filename='seo.png', _external=True) }}"
+        },
+        "sameAs": [
+          "https://www.pinterest.com/shopbupora/",
+          "https://www.youtube.com/@bupora",
+          "https://twitter.com/thebupora",
+          "https://www.instagram.com/shopbupora/"
+        ],
+        "foundingDate": "2026",
+        "description": "Dog breed guides, care tips, and lifestyle inspiration for dog lovers."
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Bupora",
+        "@id": "{{ request.url_root.rstrip('/') }}/#website",
+        "url": "{{ request.url_root.rstrip('/') }}",
+        "publisher": {
+          "@id": "{{ request.url_root.rstrip('/') }}/#organization"
+        },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "{{ request.url_root }}search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+    </script>
+
+    {% block schema %}{% endblock %}
+
+    {% block extra_head %}{% endblock %}
+    {% block head_end %}{% endblock %}
+  </head>
+
+  <body class="font-sans antialiased bg-background-secondary text-foreground">
+    <!-- off-canvas Sidebar Overlay -->
+    <div id="sidebarOverlay" class="fixed inset-0 bg-black/50 hidden z-40" aria-hidden="true"></div>
+    <!-- Sidebar -->
+    <aside id="sidebar" role="dialog" aria-modal="true" class="fixed top-0 left-0 h-full w-72 bg-background border-r border-border transform -translate-x-full transition-transform duration-300 ease-out z-50 overflow-y-auto">
+      <div class="flex items-center gap-8 px-4 py-2.5 min-h-16">
+        <!-- Toggle button -->
+        <button id="sidebarClose" aria-label="Close menu" class="group flex-none p-1.5 rounded-full hover:bg-background transition-colors">
+          {{ hamburger("h-7 w-auto group-hover:hidden") }}
+          {{ clear("hidden h-7 w-auto group-hover:block") }}
+        </button>
+        <!-- Logo -->
+        <a href="/" class="flex flex-1 items-center gap-2">
+          {{ logo("h-7 w-auto") }}
+        </a>
+      </div>
+      <nav class="flex flex-col text-lg font-bold">
+        <a href="/breeds/" class="px-5 py-4 hover:bg-background-tertiary border-t border-border flex items-center justify-between group">
+          <span class="nav-link">Breeds</span>
+          {{ angle_right("h-5 w-auto opacity-50 transition group-hover:opacity-100 group-hover:translate-x-1 group-hover:fill-brand") }}
+        </a>
+        <a href="/care/" class="px-5 py-4 hover:bg-background-tertiary border-t border-border flex items-center justify-between group">
+          <span class="nav-link">Care</span>
+          {{ angle_right("h-5 w-auto opacity-50 transition group-hover:opacity-100 group-hover:translate-x-1 group-hover:fill-brand") }}
+        </a>
+        <a href="/lifestyle/" class="px-5 py-4 hover:bg-background-tertiary border-t border-b border-border flex items-center justify-between group">
+          <span class="nav-link">Lifestyle</span>
+          {{ angle_right("h-5 w-auto opacity-50 transition group-hover:opacity-100 group-hover:translate-x-1 group-hover:fill-brand") }}
+        </a>
+        <a href="/shop/" class="px-5 py-2 mx-5 mt-5 mb-4 font-bold justify-center rounded-full transition bg-brand hover:bg-brand-hover text-primary-foreground inline-flex items-center gap-2">
+          Shop
+          {{ up_right_from_square("h-5 w-auto") }}
+        </a>
+        <div class="px-8 flex gap-6 md:gap-8 justify-center items-center">
+          <a href="https://www.pinterest.com/thebupora/"
+            class="hover:text-brand transition-colors"
+            aria-label="Pinterest">
+            {{ pinterest("h-6 md:h-7 w-auto") }}
+          </a>
+          <a href="https://www.youtube.com/@bupora/"
+            class="hover:text-brand transition-colors"
+            aria-label="YouTube">
+            {{ youtube("h-6 md:h-7 w-auto") }}
+          </a>
+          <a href="https://www.instagram.com/thebupora/"
+            class="hover:text-brand transition-colors"
+            aria-label="Instagram">
+            {{ instagram("h-6 md:h-7 w-auto") }}
+          </a>
+          <a href="https://x.com/thebupora/"
+            class="hover:text-brand transition-colors"
+            aria-label="X">
+            {{ twitter_x("h-6 md:h-7 w-auto") }}
+          </a>
+        </div>
+        <div class="my-5 border-t border-border"></div>
+        <ul class="px-5 flex flex-col items-start gap-4 text-base text-foreground-secondary">
+          <li><a href="/about/" class="hover:text-brand transition-colors">About</a></li>
+          <li><a href="/contact/" class="hover:text-brand transition-colors">Contact</a></li>
+          <li><a href="/privacy/" class="hover:text-brand transition-colors">Privacy</a></li>
+          <li><a href="/terms/" class="hover:text-brand transition-colors">Terms</a></li>
+        </ul>
+      </nav>
+    </aside>
+    <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 bg-background px-2 py-2 rounded shadow">
+      Skip to content
+    </a>
+
+    <!-- ======================
+    HEADER
+    ====================== -->
+    {% include "components/header.html" %}
+
+    <!-- ======================
+    MAIN
+    ====================== -->
+
+    <main id="main" class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-10 min-h-screen">
+      
+      {% block breadcrumb %}{% endblock %}
+
+      {% block content %}{% endblock %}
+
+    </main>
+
+    <!-- ======================
+    FOOTER
+    ====================== -->
+
+    {% include "components/footer.html" %}
+
+    <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+
+    {% block extra_js %}{% endblock %}
+
+  </body>
+</html>

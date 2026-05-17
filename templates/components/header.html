@@ -1,0 +1,45 @@
+<header id="siteHeader" class="sticky top-0 bg-background border-b border-border z-30 transition-shadow duration-200">
+  <div id="headerRow" class="max-w-7xl mx-auto px-6 py-2 min-h-16 flex items-center gap-4">
+    <button id="sidebarOpen" type="button" class="md:hidden flex-none flex justify-start" aria-label="Menu">
+      {{ hamburger("h-7 w-auto") }}
+    </button>
+    <a href="{{ url_for('index') }}" class="group absolute left-1/2 -translate-x-1/2 md:static md:translate-x-0 flex justify-center items-center gap-2">
+      {{ logo("h-8 w-auto") }}
+    </a>
+    <nav id="mainNav" aria-label="Main navigation" class="hidden md:flex flex-1 items-center justify-center gap-8 text-lg">
+      <a href="/breeds/" class="nav-link">Breeds</a>
+      <a href="/care/" class="nav-link">Care</a>
+      <a href="/lifestyle/" class="nav-link">Lifestyle</a>
+      <a href="https://shop.bupora.com" target="_blank" rel="noopener noreferrer" class="nav-link inline-flex items-center gap-1">Shop {{ up_right_from_square("h-5 w-auto") }}</a>
+    </nav>
+
+    <!-- Mobile Search -->
+    <button id="mobileSearchOpen" type="button" class="md:hidden p-2 ml-auto flex justify-end" aria-label="Search">
+      {{ magnifying_glass("h-6 w-auto") }}
+    </button>
+
+    <!-- Search (right) -->
+    <form id="searchForm" role="search" aria-label="Site search" action="/search/" method="get" class="relative hidden md:flex items-center min-w-0">
+      {{ magnifying_glass("h-5 w-auto absolute left-3.5 top-1/2 -translate-y-1/2") }}
+      <input id="searchInput" type="search" name="q" autocomplete="off" placeholder="Search" class="w-44 text-base rounded-full pl-10 pr-10 py-2 text-sans focus:border-call-to-action-hover focus:outline-none focus:ring-1 focus:ring-call-to-action-hover transition ease-out">
+      <button type="button" id="clearBtn" class="hidden absolute right-3.5 top-1/2 -translate-y-1/2 text-input-placeholder hover:text-input-foreground">
+        {{ clear("h-6 w-auto") }}
+      </button>
+    </form>
+    <button
+      id="themeToggle"
+      type="button"
+      class="p-2 rounded-full hover:bg-secondary transition-colors" aria-label="Toggle theme">
+      <span id="iconSun">
+        {{ sun("h-6 w-auto fill-foreground-primary") }}
+      </span>
+      <span id="iconMoon" class="hidden">
+        {{ moon("h-6 w-auto fill-foreground-primary") }}
+      </span>
+    </button>
+
+  </div>
+  
+  <!-- READING PROGRESS BAR -->
+  <div id="reading-progress" class="absolute bottom-0 left-0 h-1 bg-brand w-0"></div>
+</header>
