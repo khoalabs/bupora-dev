@@ -1,0 +1,117 @@
+👉 og-image.psb
+
+Create a premium Open Graph social sharing image for a modern dog lifestyle brand called “Bupora”.
+
+The image should feel emotional, cozy, cinematic, and highly shareable — focused on the emotional bond between humans and dogs rather than ecommerce or product selling.
+
+Scene:
+A calm warm moment between a young dog lover and their dog inside a softly lit modern home. Natural interaction only — authentic eye contact, gentle touch, relaxed atmosphere. The person should look comfortable and emotionally connected with the dog. Subtle hints of cozy lifestyle aesthetics are welcome, but clothing should not look like a fashion advertisement.
+
+Visual direction:
+
+premium lifestyle photography
+Pinterest aesthetic
+emotional storytelling
+soft natural morning or golden-hour lighting
+warm neutral tones
+minimalist interior
+cinematic depth of field
+calm and comforting atmosphere
+modern cozy lifestyle mood
+editorial-quality composition
+authentic human emotion
+highly aesthetic but realistic
+
+Composition:
+
+clean uncluttered layout
+intentional negative space for subtle future branding placement
+balanced framing optimized for social previews
+visually readable even in small thumbnail previews
+avoid overly centered composition
+subject slightly off-center for a more premium editorial feel
+
+Color palette:
+
+warm whites
+cream
+soft beige
+muted warm gray
+subtle warm orange accents compatible with brand color #f97316
+
+Avoid:
+
+text
+logos
+watermark
+cartoon style
+exaggerated AI look
+pet store advertisement style
+harsh saturation
+cluttered background
+staged commercial product photography
+unrealistic dog expressions
+fashion-model posing
+
+Output requirements:
+
+ultra realistic
+cinematic premium lifestyle photography
+optimized for Open Graph social sharing
+1200 × 630 px
+high detail
+elegant and emotionally memorable
+suitable for a modern dog lifestyle brand homepage preview
+
+==========================================================
+👉 og-image.ai
+
+Minimal modern Open Graph cover image for a dog lifestyle website called "Bupora".
+
+Style: clean, minimal, tech startup aesthetic similar to GitHub or Vercel design.
+
+Scene: a simple friendly dog silhouette (golden retriever style) sitting on the left side, with soft abstract shapes in the background.
+
+Center-right text:
+"Bupora"
+Dog care • Breed guides • Dog mom lifestyle
+
+Color palette:
+soft light background (#F9FAFB),
+primary blue accent (#2563EB),
+subtle green accent (#22C55E).
+
+Typography: modern sans-serif, bold but clean, lots of whitespace.
+
+Mood: friendly, trustworthy, calm, modern internet brand.
+
+Layout: balanced composition with large empty space for readability in social previews.
+
+Flat design, vector style, no clutter, no photo realism.
+
+Canvas size: 1200x630.
+
+---------------------
+
+Minimal flat illustration Open Graph image for the brand "Bupora".
+
+Design style inspired by GitHub, Reddit and modern SaaS websites.
+
+Left side: simple outline silhouette of a friendly dog.
+
+Right side typography:
+
+BUPORA
+Dog care, breed guides & dog mom lifestyle
+
+Color palette:
+white / light gray background,
+deep blue accent (#2563EB),
+soft green accent (#22C55E).
+
+Very clean layout, lots of whitespace, vector illustration, soft rounded shapes.
+
+Modern internet brand aesthetic.
+
+Size: 1200x630.
+

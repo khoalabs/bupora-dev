@@ -1,0 +1,47 @@
+A minimalist black and white vector logo of a dog face, created entirely using negative space carved out from a solid black circle.
+
+The design must show ONLY the dog’s face — no neck, no shoulders, no body, no chest. The face is tightly framed and cropped within the circle, filling most of the space.
+
+The dog face is not drawn with lines. It is formed exclusively by removing shapes from the black circle (cut-out negative space style, similar to the Pinterest logo technique).
+
+The visible face appears as clean white negative space inside the black circle.
+
+Use bold, simple geometric shapes combined with smooth, elegant curves. The silhouette must be strong, iconic, and instantly recognizable at very small sizes (16px–32px favicon).
+
+The face is shown in a subtle 3/4 angle (slightly rotated 10–15 degrees), with slight asymmetry between left and right sides.
+
+Expression: calm, confident, slightly playful with a subtle smirk — not overly cute.
+
+Include sunglasses as part of the negative space cut-out. The sunglasses must be simple, bold, and clearly readable even at small sizes.
+
+Important constraints:
+- The face must be tightly contained within the circle, with no elements extending downward to suggest a neck or body
+- The lower edge of the face should stop above the bottom curve of the circle (no elongation)
+- Focus on head features only: ears, forehead, eyes, snout
+- No extra shapes below the jawline
+
+Style constraints:
+- Ultra clean vector style
+- Minimal anchor points
+- Smooth bezier curves
+- Large, clear negative spaces
+- No small details
+
+Strict rules:
+- No outlines
+- No strokes
+- No line drawing
+- No internal line details
+- No gradients
+- No shadows
+- No textures
+- No 3D
+- No realism
+
+Only pure black shape and white negative space.
+
+Centered composition inside a perfect circle.
+
+-----
+
+Hard constraint: any hint of a neck or body is not allowed. The image must read as a cropped face icon only.
