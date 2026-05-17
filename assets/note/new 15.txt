@@ -1,0 +1,25 @@
+Chốt phương án sự dụng gói vps nhẹ nhất của Linode
+	5$ = Nanode 1 GB $5 $0.0075 1 GB 1 25 GB 1 TB 40 Gbps / 1 Gbps
+	Cần tối ưu hết mức để vận hành tốt
+		Bỏ:
+			User register / login
+			Comment / reaction
+			Session / Cookie auth
+			CSRF protection
+			Password hashing
+			Email / notification
+			Upload file từ user
+			Giỏ hàng / checkout
+			Đề xuất thêm nếu có...
+		Giữ:
+			Hiển thị bài viết / nội dung
+			Tìm kiếm dùng PostgreSQL full-text search
+			Phân trang
+			RSS Feed
+			Sitemap.xml
+		* Bổ sung
+			Quản lý bài viết (tạo, cập nhật, xóa) có thể bằng api hoặc trang admin đơn giản...cái này bạn đề xuất phương án tốt nhất (website chỉ READ, chỉ admin write)
+			
+	
+
+		

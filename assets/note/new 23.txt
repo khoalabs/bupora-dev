@@ -1,0 +1,89 @@
+Create an ultra-minimalist mascot logo designed for a modern dog mom lifestyle brand.
+
+Core concept
+a solid circular badge filled with warm brown color
+inside the circle a cute dog face is carved out using clean negative space
+the dog face appears as transparent cut-out shapes within the circle
+the result must look like a professional brand icon, not an illustration
+
+Mascot design
+golden retriever inspired dog face
+soft feminine friendly expression
+slightly rounded cheeks for extra cuteness
+floppy ears gently curved downward
+large simple nose shape
+tiny warm smile
+balanced symmetrical face
+very simplified features
+no realistic fur details
+
+Cute personality
+sweet
+lovable
+gentle
+friendly
+adorable but minimal
+strong emotional appeal for dog moms
+
+Design style
+extreme minimalist mascot logo
+modern lifestyle brand identity
+soft rounded geometry
+bold silhouette
+strong negative space carving
+clean vector icon
+similar visual simplicity to iconic tech logos and viral lifestyle brands
+
+Logo construction
+solid circle badge
+dog face created entirely from negative space cut-outs
+large open shapes for eyes, muzzle, nose and ears
+excellent figure-ground balance
+must remain readable at favicon size
+
+Color
+solid warm brown badge #8B5A2B
+dog face formed only with negative space
+background soft cream
+
+Visual rules
+single color logo
+no outlines
+no gradients
+no shadows
+no textures
+no lighting effects
+no 3D
+no typography
+no decorative graphics
+
+Composition
+perfect centered circular icon
+balanced spacing around cut-outs
+soft rounded shapes for a friendly feminine look
+strong recognizable silhouette
+clear icon even at very small size
+
+Brand mood
+cute
+warm
+friendly
+trustworthy
+community driven
+dog mom lifestyle brand
+
+Usage
+logo
+favicon
+app icon
+merchandise branding
+t-shirts
+stickers
+packaging
+website header
+social media avatar
+
+Goal
+a cute yet iconic minimalist dog mascot logo that feels like a modern viral pet brand in the US market
+
+Return ONLY the generated logo image.

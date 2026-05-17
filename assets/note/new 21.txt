@@ -1,0 +1,94 @@
+Brand theo hướng Chewy (pet-friendly)
+	Cảm giác
+		🐶 ấm áp – thân thiện – đáng tin – yêu chó thật sự
+	Color palette
+		Primary
+			#6B4F3A
+			Warm Brown
+			→ giống màu lông chó
+			→ rất pet friendly
+		Background
+			#FFF8F0
+			Warm Cream
+			→ website rất ấm
+			→ đọc content dễ
+		Accent
+			#E3B587
+			Soft Gold
+			→ dùng cho
+				button
+				hover
+				icon
+				link
+		Text
+			#1F1F1F
+		Border
+			#E7DDD4
+		Vibe
+			Cảm giác khi mở ra
+				Warm
+				Clean
+				Friendly
+				Dog Lover
+			Giống
+				blog cho dog lovers
+				shop merch
+				community
+		Logo
+			color
+				brown + cream hoặc brown + gold
+			vd
+				🐕  Brand
+					Dog icon → brown
+					Text → brown
+					Background → cream
+			style hướng Chewy
+				đặc điểm
+					simple
+					friendly
+					recognizable
+					minimal
+			concept
+				Brand (đuôi chó nằm trong chữ a)
+				🐕  Brand (dog silhouette bên trái)
+				logo phải
+					simple enough
+					to print on merch
+				logo dùng được
+					favicon
+					merch
+					social
+					website
+			insight
+				chỉ dùng ba màu
+					brown
+					cream
+					gold accent
+			kiểu
+				A — Golden Retriever vibe (friendly dog mom thích)
+				
+			
+			🐕  Brand Name
+			dog silhouette là Golden Retriever
+				dog head silhouette
+				friendly curve
+				ear drop
+				muzzle dài
+				neck lông mềm
+			main
+				🐕 BRAND
+			icon
+				🐕
+			stacked
+				 🐕
+				BRAND
+			monochrome
+				all black
+				all white
+			prompt
+				minimal golden retriever silhouette logo, dog head icon on the left, modern pet brand logo, friendly and warm style, clean vector, simple shapes, no gradients, no shadows, warm brown color, cream background, professional brand identity, minimalist, scalable logo design
+				
+				
+				
+				
+				

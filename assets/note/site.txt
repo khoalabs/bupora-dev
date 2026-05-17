@@ -1,0 +1,152 @@
+👑 Admin ✍ Editorial Team
+username: admin
+display_name: Admin
+role: admin
+
+username: editor
+display_name: Editorial Team
+role: editor
+
+comment system ❌
+user profile ❌
+social graph ❌
+author public page ❌
+
+CORE:
+  post
+  category
+  tags
+  updated_at
+  read_time
+  slug
+
+INTERNAL ONLY:
+  author_id (ẩn)
+  admin/editor login
+  audit log (optional)
+
+Content Delivery API
+  Nginx (reverse proxy)
+  Redis (cache query/session/rate limiting)
+  Linode VPS ($5)
+  PostgreSQL (on VPS)
+  Backup (DB backup cron job → upload lên R2)
+  Logging / monitoring (log file + rotate)
+  CI/CD (GitHub Actions)
+  Cloudflare CDN (free)
+  Cloudflare R2 (free tier storage)
+  Cloudflare Workers (free tier edge API for auth edge check, lightweight API proxy, caching layer)
+  Domain + DNS layer (Cloudflare Domain → Cloudflare DNS → Nginx VPS)
+  Security baseline (UFW firewall, Fail2ban, SSH key only, HTTPS)
+
+
+--------------------------------------
+
+📌 MỤC TIÊU (read-heavy, 1 VPS, cache-first, editorial system, không social)
+  ✔ schema trên là đủ production-lite
+  ✔ tối ưu cho read-heavy
+  ✔ chạy tốt trên VPS $5
+  ✔ scale lên 10k–100k traffic dễ nếu cache đúng
+  ⚡ đọc nhanh (READ-heavy)
+  ⚡ cache-friendly
+  ⚡ ít join
+  ⚡ dễ invalidate Redis
+  ⚡ không social graph
+
+🧱 DATABASE chuẩn production-lite
+🟢 1. users (internal only)
+users (
+    id SERIAL PRIMARY KEY,
+    username TEXT UNIQUE NOT NULL,
+    display_name TEXT NOT NULL,
+    role TEXT NOT NULL, -- admin | editor
+    created_at TIMESTAMP DEFAULT now()
+)
+
+🟢 2. categories
+categories (
+    id SERIAL PRIMARY KEY,
+    name TEXT UNIQUE NOT NULL,
+    slug TEXT UNIQUE NOT NULL
+)
+
+🟢 3. posts (CORE TABLE)
+posts (
+    id SERIAL PRIMARY KEY,
+    title TEXT NOT NULL,
+    slug TEXT UNIQUE NOT NULL,
+    content TEXT NOT NULL,
+    category_id INT REFERENCES categories(id),
+    author_id INT REFERENCES users(id),
+    status TEXT DEFAULT 'published', -- draft | review | published
+    read_time INT DEFAULT 0,
+    created_at TIMESTAMP DEFAULT now(),
+    updated_at TIMESTAMP DEFAULT now()
+)
+
+🟢 4. tags (optional nhưng rất nên có)
+tags (
+    id SERIAL PRIMARY KEY,
+    name TEXT UNIQUE NOT NULL,
+    slug TEXT UNIQUE NOT NULL
+)
+
+🟢 5. post_tags (many-to-many)
+post_tags (
+    post_id INT REFERENCES posts(id),
+    tag_id INT REFERENCES tags(id),
+    PRIMARY KEY (post_id, tag_id)
+)
+
+
+⚡ CACHE DESIGN (cực quan trọng với VPS $5)
+
+🟢 1. Post cache > 👉 TTL: 1h – 24h
+post:{slug}
+post:{id}
+
+🟢 2. Category list cache
+category:breeds
+category:care
+category:lifestyle
+
+🟢 3. Homepage cache > 👉 TTL ngắn hơn (30s – 5m)
+homepage:latest
+
+🧠 READ FLOW (quan trọng nhất)
+Request → Cloudflare → Nginx → Redis → Postgres (fallback)
+
+🟢 WRITE FLOW (admin/editor)
+Admin API →
+    Postgres update →
+    invalidate Redis keys →
+    (optional) Cloudflare purge
+
+❌ KHÔNG NÊN CÓ
+  comment table ❌
+  user public table ❌
+  followers ❌
+  likes ❌
+  profile page ❌
+  complex permissions ❌
+
+🧠 TƯ DUY
+  content delivery system có admin/editor layer
+
+🚀 TỐI ƯU
+  posts
+    category_slug TEXT
+    author_name TEXT
+
+📊 KIẾN TRÚC DB
+  users (internal only)
+  categories
+  tags
+  posts (core)
+  post_tags
+
+🧠 INSIGHT
+  DB của bạn không phải để query linh hoạt — mà để serve cache layer
+
+
+

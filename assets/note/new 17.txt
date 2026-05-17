@@ -1,0 +1,161 @@
+VPS = Linode | Nanode 1 GB $5 $0.0075 1 GB 1 25 GB 1 TB 40 Gbps / 1 Gbps
+	🎯 Kiến trúc ( traffic <= 5k visit/ngày)
+		Cloudflare (cache, ssl, brotli)
+		↓
+		Nginx
+		↓
+		Gunicorn (1 worker, 2 threads)
+		↓
+		Flask (API only: Google Colab server.ipynb > HTTPS + API KEY > POST /api/admin/*)
+		↓
+		PostgreSQL (local)
+	❌ Bỏ
+		Auth system
+		Session
+		Cookie
+		Comment
+		Email
+		Upload
+		Payment
+		Tag phức tạp
+		ORM relationship dư thừa
+		Background worker
+		Redis
+		Celery
+	✔ Giữ
+		Content render
+		Postgres full-text
+		Pagination
+		RSS static
+		Sitemap static
+	🔐 Bảo mật cho push (create/delete/update) bài viết qua API bằng script
+		Google Colab server.ipynb
+			1. API Key trong header (không dùng query param)
+				Colab gửi:
+					Authorization: Bearer YOUR_SECRET_KEY
+					Thêm
+						X-Admin-Version: 1.0
+					Hoặc:
+						Timestamp + HMAC (nâng cao hơn nếu bạn muốn hardcore security).
+				Server kiểm tra:
+					from functools import wraps
+					from flask import request, abort
+					import os
+
+					API_KEY = os.environ.get("ADMIN_API_KEY")
+
+					def require_api_key(f):
+							@wraps(f)
+							def decorated(*args, **kwargs):
+									auth = request.headers.get("Authorization")
+									if not auth or auth != f"Bearer {API_KEY}":
+											abort(401)
+									return f(*args, **kwargs)
+							return decorated
+			2. Giới hạn IP qua Nginx (khuyên dùng)
+				Nếu Colab có IP cố định (không luôn luôn ổn định),
+				ít nhất bạn có thể:
+					Cho phép chỉ US
+					Hoặc bật rate limit
+				Hoặc đơn giản:
+					Chỉ mở endpoint khi publish xong → tắt lại.
+		📦 API endpoints tối thiểu
+			POST   /api/admin/create
+			PUT    /api/admin/update/<id>
+			DELETE /api/admin/delete/<id>
+			POST   /api/admin/publish
+		🧱 Payload ví dụ
+			payload = {
+				"title": "Golden Retriever Grooming Guide",
+				"slug": "golden-retriever-grooming-guide",
+				"content": "<p>Full HTML content...</p>",
+				"excerpt": "Short summary...",
+				"published": true
+			}
+		🗄 Sau khi publish
+			Server sẽ:
+				Lưu DB
+			Rebuild:
+				sitemap.xml
+				rss.xml
+				Ping Google
+				Tất cả trong cùng request.
+				Không cần cron.
+
+
+
+
+	🏗 Cấu trúc DB tối ưu cho SEO
+		articles
+			id
+			title
+			slug
+			content
+			excerpt
+			created_at
+			updated_at
+			published (boolean)
+			tsv (tsvector indexed)
+		breeds (optional nếu bạn làm cluster breed)
+			id
+			name
+			slug
+			description
+	🔎 Full-text search tối ưu Postgres
+		ALTER TABLE articles ADD COLUMN tsv tsvector;
+		UPDATE articles SET tsv = to_tsvector('english', title || ' ' || content);
+		CREATE INDEX idx_tsv ON articles USING GIN(tsv);
+		
+		Trigger auto update:
+			CREATE TRIGGER tsv_update BEFORE INSERT OR UPDATE ON articles FOR EACH ROW EXECUTE FUNCTION tsvector_update_trigger(tsv, 'pg_catalog.english', title, content);
+		
+		Search query:
+			SELECT * FROM articles WHERE tsv @@ plainto_tsquery('english', 'golden retriever grooming');
+	📄 Phân trang
+		Dùng LIMIT / OFFSET.
+			SELECT * FROM articles ORDER BY created_at DESC LIMIT 10 OFFSET 20;
+	📰 RSS Feed
+		👉 Generate file rss.xml static khi publish bài mới	
+	🗺 Sitemap
+		Bạn đã có cron generate static sitemap.
+	
+	⚙️ Gunicorn tối ưu cho 1GB
+		workers = 1
+		threads = 2
+		preload_app = True
+	🧱 Cấu hình Postgres
+		Trong postgresql.conf:
+			shared_buffers = 128MB
+			work_mem = 4MB
+			maintenance_work_mem = 32MB
+	
+	🔐 Phần QUAN TRỌNG: Admin WRITE như thế nào?
+		Website public chỉ READ.
+		Admin chỉ dùng để tạo / sửa / xóa bài
+
+
+✅ HTTPS (Cloudflare Full Strict)
+✅ API Key (Bearer secret)
+✅ Timestamp (chống replay)
+✅ HMAC SHA256 (chống giả mạo / sửa body)
+✅ X-Admin-Version
+✅ So sánh signature bằng compare_digest
+✅ Rate limit nhẹ ở Nginx
+🎯 Chuẩn giao thức request
+	Colab phải gửi các header sau:
+		Authorization: Bearer <API_KEY>
+		X-Timestamp: <unix_timestamp>
+		X-Admin-Version: 1.0
+		X-Signature: <hmac_sha256>
+		Content-Type: application/json
+🔐 Chuẩn tính chữ ký (RẤT QUAN TRỌNG)
+	Message để ký phải thống nhất 100%.
+	Ta định nghĩa:
+		message = HTTP_METHOD + "\n" + REQUEST_PATH + "\n" + timestamp + "\n" + raw_body
+	Ví dụ:
+		POST
+		/api/admin/create
+		1710000000
+		{"title":"abc"}
+	Nếu không cố định format → mismatch rất khó debug.
+	

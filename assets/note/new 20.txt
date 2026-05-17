@@ -1,0 +1,19 @@
+Color
+	Nền: Trắng #FFFFFF hoặc #F5F5F0
+	Chữ: Đen #0D0D0D
+	CTA: vàng #FFD600
+	
+nav
+	→ nền: #0F1111 (đen xanh đậm như Amazon)
+	→ logo: chữ bupora trắng + art vàng #FFD600
+	→ menu text: trắng
+	→ cta button: vàng #FFD600 + chữ đen
+
+body: 
+	→ nền #F5F5F0 (trắng)
+  → product text: #0D0D0D (đen)
+  → giá, nút mua: #FFD600 (vàng)
+
+footer: 
+	→ nền: #0F1111 (đen xanh đậm đồng bộ với nav)
+	→ text: trắng/xám nhạt

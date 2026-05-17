@@ -1,0 +1,25 @@
+/designs/
+  /_master/
+    /2026/
+      /floral-skull/
+        floral-skull.ai
+        floral-skull-master.png
+        floral-skull-master.png.sha256
+        metadata.txt
+
+  /projects/
+    /adobe-stock/
+      /floral-skull/
+        floral-skull-adobestock.png
+
+    /redbubble/
+      /floral-skull/
+        floral-skull-redbubble.png
+		/merch-amazon/
+			/floral-skull/
+				floral-skull-mba.png
+
+    /bupora/
+      /floral-skull/
+        floral-skull-bupora.png
+		

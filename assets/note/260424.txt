@@ -1,0 +1,309 @@
+COLOR TOKENS (DESIGN SYSTEM HIERARCHY)
+	1. IDENTITY
+		--brand
+		→ logo, brand mark, favicon
+		→ identity highlights (nav active, link emphasis)
+		
+		--brand-contrast
+		→ text/icon on brand
+
+	2. CONVERSION
+		--primary
+		→ primary CTA (buy, add to cart, checkout)
+		→ key actions, important highlights
+		
+		--primary-contrast
+		→ text/icon on primary button
+		
+		--primary-hover
+		--primary-active
+		→ interaction states (derived from primary - no hardcode offset hue)
+
+	3. INTERACTIONS
+		--secondary
+		→ secondary actions (learn more, view details, back, cancel)
+		→ secondary navigation
+		
+		--secondary-contrast
+		
+		--secondary-hover
+		--secondary-active
+		→ interaction states (derived from secondary - no hardcode offset hue)
+	
+		--ring
+		→ focus style cho button, input, interactive elements	
+
+	4. LAYOUT
+		--background
+		→ page background
+		
+		--surface
+		→ cards, sections, containers
+		
+		--surface-elevated
+		→ modal, dropdown, popover, sticky nav (layer front)
+		
+		--surface-contrast
+		→ text/icon on high-emphasis surface (banner, colored card)
+		
+		--surface-disabled
+		→ background disabled (button, input)
+		
+		--border
+		→ divider, outline, input border
+		
+		--border-strong
+		→ emphasis divider, strong separation
+		
+		--border-subtle
+		→ ultra light divider (table row, list)
+		
+		--input-background
+		→ input, textarea background
+		
+		--input-border
+		→ default border
+		
+		--input-focus
+		→ focus border / ring
+		
+		--input-placeholder
+		→ placeholder text color
+
+	5. CONTENT
+		--text 
+		→ primary content
+
+		--text-muted
+		→ secondary content, description, metadata
+		
+		--text-subtle
+		→ very low emphasis text (placeholder, hint)
+
+		--text-inverse 
+		→ text on dark, buttons
+		
+		--text-disabled
+		→ disabled state
+	
+	6. FEEDBACK
+		--success 
+		--warning 
+		--danger 
+		--info 
+		→ state
+		
+		--success-bg
+		--warning-bg
+		--danger-bg
+		--info-bg
+		→ background for alert
+		
+		--success-contrast
+		--warning-contrast
+		--danger-contrast
+		--info-contrast
+		→ text/icon on state color
+		
+		→ alert, form validation, status
+	
+	7. SYSTEM
+		--hover-overlay
+		→ overlay hover (surface/btn)
+
+		--active-overlay
+		→ overlay for click
+		
+		--surface-overlay
+		→ lightweight overlay for layering (card hover, image overlay)
+
+		--overlay-backdrop
+		→ modal backdrop (blur/dark overlay)
+		
+		--focus-ring
+		→ design-controlled focus (accessible + styled)
+		
+		--outline
+		→ browser fallback (default focus, no style)
+		
+		--selection-bg
+		--selection-text
+		→ text selection highlight
+		
+		--scrollbar-thumb
+		--scrollbar-track
+		→ scrollbar styling
+	
+	8. ACCENT (optional / decorative)
+		--accent
+		→ badge, small highlights, decorative elements, visual rhythm
+
+		--accent-contrast
+===================
+website
+	không phải là
+		→ shop về chó
+		→ blog về chó
+	là
+		→ media asset + traffic engine + trust layer
+		→ A niche authority platform trong "dog lifestyle", dog lifestyle/content site
+	bao gồm
+		Content (SEO + social)
+		Audience (email + followers)
+		Products (digital + physical)
+		Monetization layers
+	
+	kiến trúc
+		1. Traffic (đầu vào)
+			SEO (Google)
+			Pinterest (rất hợp niche chó)
+			TikTok / IG (awareness)
+		2. Capture (tài sản thật)
+			không sở hữu
+				follower IG
+				follower TikTok
+			sở hữu
+				👉 email list
+			bắt buộc có
+				newsletter
+				lead magnet
+					“Dog care checklist”
+					“Puppy starter kit PDF”
+		3. Monetization (đa nguồn)
+			3.1 Affiliate (bền nhất giai đoạn đầu)
+				đồ cho chó
+				thức ăn
+				phụ kiện
+			3.2 Ads (khi traffic đủ lớn)
+				Google AdSense hoặc Ezoic
+			3.3 Digital products (biên lợi nhuận cao)
+				Ebook (dog care)
+				Training guides
+				Printable (rất hợp Pinterest)
+				👉 Đây là bước chuyển từ content site → business thật
+			3.4 Physical products (merch)
+				👉 Áo (Bupora shop) là layer phụ, không phải core
+			3.5 Brand deals (sau này)
+				hợp tác brand pet
+				sponsor content
+		4. Cấu trúc website chuẩn
+			Core pages
+				4.1 Content hub
+					Dog breeds
+					Dog care
+					Lifestyle
+					👉 mục tiêu: SEO + trust
+				4.2 Conversion hub
+					Newsletter landing
+					Free resources
+				4.3 Shop (secondary)
+					merch
+					print-on-demand
+				4.4 About (rất quan trọng)
+					→ kể story + build trust
+		5. Hệ thống kết nối (ecosystem)
+			Đây là phần nhiều người làm sai.
+			Không phải:
+				Website → bán hàng
+			Pinterest → Blog → Email → Product
+			TikTok → Blog → Email → Product
+			SEO → Blog → Email → Product
+			👉 Email là trung tâm
+		6. Định vị chiến lược (cực kỳ quan trọng)
+			A. Content authority
+				giống media
+				kiếm tiền từ ads + affiliate
+			B. Lifestyle brand
+				storytelling
+				bán merch + brand value
+			C. Hybrid (khó nhưng mạnh nhất)
+			👉 mình khuyên bạn đi hướng này
+		7. Sai lầm cần tránh
+			❌ 1. Bắt đầu từ logo / brand trước
+			→ không tạo tiền
+
+			❌ 2. Build shop trước khi có traffic
+			→ chết 99%
+
+			❌ 3. Không build email list
+			→ mất toàn bộ tài sản
+
+			❌ 4. Content không có strategy
+			→ viết cho vui
+		8. Lộ trình thực tế (rất quan trọng)
+			Giai đoạn 1 (0 → 3 tháng)
+				build website chuẩn SEO
+				viết 30–50 bài
+				tạo lead magnet
+				bắt đầu Pinterest
+
+				👉 chưa cần bán gì
+
+			Giai đoạn 2 (3 → 9 tháng)
+				traffic bắt đầu có
+				bật affiliate
+				grow email list
+
+			Giai đoạn 3 (9 → 18 tháng)
+				ra digital product đầu tiên
+				tối ưu funnel
+				
+			Giai đoạn 4 (18 tháng+)
+				scale brand
+				mở rộng product
+				build community
+
+		9. Góc nhìn “người làm lâu dài”
+			Một dự án như Bupora nếu làm đúng:
+			Không giàu nhanh
+			Nhưng:
+				có thể build thành asset bán được hoặc tạo income ổn định nhiều năm
+
+==================
+
+logo = brand mark (icon) và wordmark (text)
+[ 🔴 icon ]  YouTube
+
+color: var(--text-primary);
+background: var(--bg-primary);
+
+# Light mode
+:root {
+	/* brand tokens */
+  --brand-primary: #ff0000;
+	
+	
+	--text-primary: #111;
+}
+
+
+	--text-primary: #111;
+	--text-secondary: #666
+	--bg-primary: #ffffff;
+	--surface: #f5f5f5
+	
+Dark mode
+	--text-primary: #fff;
+	--text-secondary: #aaa
+	--bg-primary: #121212;
+	--surface: #1e1e1e
+
+.logo-icon {
+  fill: var(--brand-primary);
+}
+
+.logo-text {
+  color: var(--text-primary);
+}
+
+.button-primary {
+  background: var(--brand-primary);
+}
+
+
+.button {
+  background: var(--button-bg);
+  color: var(--button-text);
+}
+
+

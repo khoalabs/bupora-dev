@@ -1,0 +1,165 @@
+bupora.com (Content / Brand)
+shop.bupora.com (Product / Conversion)
+Bupora = Dog lover lifestyle brand (cool, confident, wearable)
+
+Màu chính: Xanh dương (Trust Blue)
+Màu phụ: Cam (Energy Orange) hoặc Vàng (Warm Yellow)
+Màu nền/nét: Nâu đất nhạt (Cozy Beige)
+
+Logo chính: Xanh dương
+Chấm tròn, dấu chân, icon: Cam (accent)
+Nền website: Trắng kem hoặc nâu nhạt
+✅ Hợp phong thủy với bạn (Thủy sinh Mộc + Hỏa sinh Thổ)
+✅ Được thị trường Mỹ ưa chuộng nhất cho ngành pet
+✅ Tạo cảm giác tin cậy + năng động + thân thiện
+
+📌 Xanh dương (Thủy chính)
+	📌 Tứ trụ của bạn có 3 trụ Kim (Tháng Quý Dậu - Thoa Xuyến Kim, Ngày Nhâm Thân - Kiếm Phong Kim, Giờ Canh Thìn - Bạch Lạp Kim) – quả thực là Kim cực vượng.
+	📌 Kim sinh Thủy → Thủy là con của Kim. Khi Kim quá mạnh, dùng Thủy để tiết bớt khí Kim (Kim sinh Thủy thì Kim bị hao bớt).
+	📌 Kim vượng → khắc Mộc (xấu)
+	📌 Lấy Thủy làm trung gian → Kim sinh Thủy → Thủy sinh Mộc: xâu chuỗi tương sinh, hóa giải được sự khắc chế trực tiếp từ Kim lên Mộc.
+	
+	📌 Thủy	Tiết Kim, hóa giải khắc Mộc -- Tứ Trụ
+	📌 Sinh Mộc -- Mệnh
+	
+	Không dùng Xanh dương quá tối (gần đen) – vì đen thuần cũng là Thủy nhưng thiếu sinh khí, dễ gây trầm lắng.
+
+	Không dùng Xanh dương + Trắng – trắng là Kim, sẽ kích hoạt Kim vượng thêm, phản tác dụng.
+	
+	- Tác dụng lên tứ trụ (Kim vượng): Kim sinh Thủy → tiết bớt khí Kim, làm Kim bớt mạnh
+	- Tác dụng lên bản mệnh (Mộc): Thủy sinh Mộc → trực tiếp nuôi dưỡng Mộc
+	- Kết quả: Kim giảm → Mộc được nuôi → Mộc khỏe lên. Xanh dương giống như bạn biến kẻ ức hiếp thành người nuôi mình – thông minh và bền vững hơn nhiều.
+
+
+📌 Đỏ (Hỏa chính)
+	- Tác dụng lên tứ trụ (Kim vượng): Hỏa khắc Kim → chế ngự Kim trực tiếp
+	- Tác dụng lên bản mệnh (Mộc): Hỏa không sinh Mộc (Hỏa sinh Thổ)
+	- Kết quả: Kim giảm nhưng Mộc không được nuôi → Mộc chỉ đỡ bị đánh, chứ không lớn. Đỏ giống như bạn đánh kẻ đang ức hiếp mình – tốt, nhưng chưa đủ để bạn mạnh lên.
+
+📌 Kết hợp
+	- Xanh dương (Thủy tiết Kim, nuôi Mộc, Navy hoặc Trust Blue, chiến lược nền tảng) = Màu chủ đạo (nền, chữ chính, thương hiệu) > Nuôi Mộc, tiết Kim bền vững
+	- Đỏ / Đỏ cam (Hỏa khắc Kim, tạo sinh khí, vũ khí chiến thuật) = Màu accent (nút bấm, icon, điểm nhấn) > Chế ngự Kim tức thời, tạo năng lượng, kêu gọi hành động
+	- Xanh lá nhạt (Đường viền / chi tiết phụ) = Mộc bản mệnh – càng thêm vững
+
+
+
+🔵 Xanh dương đậm	Trust Navy	#0B3B5E	Chữ thương hiệu chính
+🟠 Cam rực	Energetic Orange	#F18F01	Hình chó / dấu chân / nút bấm
+🔷 Xanh dương sáng	Sky Blue	#2C7DA0	Màu phụ (đường viền, icon phụ)
+🌿 Xanh lá nhạt (tùy chọn)	Soft Mint	#A3D9B1	Điểm nhấn Mộc nhẹ
+⚪ Trắng kem	Warm White	#FDFBF7	Nền logo / khoảng trống âm
+
+Cách 1: Chữ xanh dương – Icon cam – Nền trắng kem
+Thành phần	Màu	Hex
+Tên thương hiệu (chữ)	Trust Navy	#0B3B5E
+Hình chó / dấu chân	Energetic Orange	#F18F01
+Nền logo	Warm White	#FDFBF7
+✅ Ưu điểm: Rõ ràng, chuyên nghiệp, dễ đọc, phù hợp mọi vị trí đặt logo (header, footer, social media).
+
+Cách 2: Logo dạng biểu tượng + chữ
+Thành phần	Màu	Hex
+Biểu tượng (hình chó)	Sky Blue	#2C7DA0
+Tên thương hiệu	Trust Navy	#0B3B5E
+Chi tiết nhỏ (vòng cổ, bát, dấu chân)	Energetic Orange	#F18F01
+✅ Ưu điểm: Trẻ trung, năng động, dễ nhận diện, phù hợp với app và favicon.
+
+🌐 Áp dụng cho website toàn bộ
+Nếu muốn đồng bộ phong thủy từ logo sang toàn bộ website, bạn có thể dùng bảng màu mở rộng:
+
+Vị trí	Màu	Hex	Vai trò
+Header / Navbar	Trust Navy	#0B3B5E	Nền chính
+Nút CTA (Call to Action)	Energetic Orange	#F18F01	Gây chú ý
+Chữ tiêu đề	Trust Navy hoặc Sky Blue	tùy nền	Tạo cấu trúc
+Chữ mô tả	Xám đen (an toàn)	#333333	Dễ đọc
+Nền chính	Warm White	#FDFBF7	Sạch, thoáng
+Footer	Sky Blue hoặc Navy	#2C7DA0 / #0B3B5E	Nhất quán
+
+Màu chính (chữ thương hiệu): #0B3B5E - Trust Navy
+Màu accent (icon, nút): #F18F01 - Energetic Orange
+Màu phụ (viền, chi tiết): #2C7DA0 - Sky Blue
+Màu nền logo: #FDFBF7 - Warm White
+Màu optional (xanh lá): #A3D9B1 - Soft Mint
+
+
+Thành phần	Màu	Hex
+Icon mặt chó	Trust Navy	#0B3B5E	Giữ nguyên
+Chữ "Bupora"	Dark Black	#1A1A1A	hoặc Dark Charcoal #2C2C2C
+
+
+Phương án 1 (An toàn, giống Amazon nhất)
+Thành phần	Màu	Hex	Hành
+Icon mặt chó	Energetic Orange	#F18F01	Hỏa
+Chữ "Bupora"	Dark Black	#1A1A1A	Thủy
+
+Phương án 2 (Nổi bật hơn, giống YouTube hơn)
+Thành phần	Màu	Hex	Hành
+Icon mặt chó	Vibrant Red	#E63946	Hỏa
+Chữ "Bupora"	Dark Black	#1A1A1A	Thủy
+
+Phương án 3 (Dịu nhẹ hơn, vẫn trưởng thành)
+Thành phần	Màu	Hex	Hành
+Icon mặt chó	Terracotta (đỏ đất)	#C76B3A	Hỏa
+Chữ "Bupora"	Dark Charcoal	#2C2C2C	Thủy
+
+	
+
+🥇 OPTION 1 — BEST (khuyên dùng)
+⚫ Đen + ⚪ Trắng + 🟤 Beige / Cream
+
+Logo: đen trắng (giữ nguyên)
+Background: trắng / kem / be
+Accent: be, nâu nhạt
+
+👉 vibe:
+
+sạch
+premium
+giống brand thời trang
+
+👉 giống style:
+
+Nike
+Aesop
+Fear of God
+
+
+
+
+🟩 LAYER 1 — BRAND / CONTENT (bupora.com)
+	Vai trò:
+	thu hút traffic (SEO, Pinterest)
+	build cảm xúc + identity
+	Cấu trúc nên có:
+	Dog Life
+	Bond & Emotion
+	Daily Moments
+	Care (nhẹ, không quá technical)
+	Stories
+
+	👉 Ví dụ bài viết:
+
+	“The quiet moment when your dog waits for you”
+	“Morning walks that mean more than you think”
+🟨 LAYER 2 — THEME (cầu nối quan trọng nhất)
+	Đây là thứ 90% người bỏ qua → khiến hệ fail.
+	Bạn cần tạo “theme layer” (có thể là tag / concept):
+	Ví dụ:
+		Quiet Moments
+		Morning Walks
+		Coming Home
+		Unspoken Bond
+		Life With Dogs
+
+	👉 Mỗi bài viết thuộc 1–2 theme
+	
+🟥 LAYER 3 — SHOP (shop.bupora.com)
+	KHÔNG nên chia kiểu:
+		T-shirt
+		Hoodie
+
+		👉 quá generic → mất brand
+	
+	NÊN chia theo theme giống content:
+		Quiet Moments Collection
+		Morning Walks Collection
+		Life With Dogs Collection

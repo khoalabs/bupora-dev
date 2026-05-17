@@ -1,0 +1,246 @@
+Bupora Ecosystem (content hub + Pinterest + merch + ebook + KDP)
+  1. Brand
+    Bupora
+    Dog lifestyle brand.
+    Focus:
+      breed guides
+      dog care
+      dog mom lifestyle
+    Tagline:
+      Life with dogs.
+
+  2. Content Hub
+    bupora.com
+    Trung tâm hệ sinh thái.
+    Nội dung:
+      breed guides
+      dog care advice
+      lifestyle with dogs
+      topic hubs
+    Mục tiêu:
+      SEO traffic
+      Pinterest traffic
+      email subscribers
+
+  3. Traffic Engines
+    Pinterest
+      Nguồn traffic rất quan trọng.
+      blog pins
+      dog tips
+      breed infographics
+    Google (SEO)
+      breed guides
+      dog care articles
+    YouTube
+      breed videos
+      dog tips
+      lifestyle content
+    X
+      micro content
+      article promotion
+      ebook promotion
+
+  4. Audience Layer
+    Email
+    Content newsletter
+      Nguồn:
+        website
+        Pinterest
+        YouTube
+      Nội dung:
+        new articles
+        dog tips
+    Sales email
+      Nguồn:
+        shop.bupora.com
+      Nội dung:
+        merch launches
+        promotions
+
+  5. Merch System
+    Main Store
+      shop.bupora.com
+      Platform:
+        Fourthwall
+        Vai trò:
+          cửa hàng chính của brand
+          chỉ bán design chất lượng nhất
+          curated products
+        Đây là brand shop.
+    Marketplace Layer
+      Merch by Amazon
+      Vai trò:
+        scale designs
+        marketplace traffic
+      Sản phẩm:
+        nhiều design hơn
+        tận dụng search traffic Amazon
+    Merch Strategy
+      Best designs                    |     Large design catalog
+      ↓                               |     ↓
+      shop.bupora.com (brand store)   |     Merch by Amazon
+      ↓                               |     ↓
+      high quality / curated          |     marketplace traffic
+      
+  6. Digital Products
+    Ebook
+    Bán qua:
+      website
+      X
+      email
+
+  7. Publishing
+    Amazon KDP
+    Sản phẩm:
+      breed guides
+      dog journals
+      planners
+
+  Traffic & Monetization Flow
+    Brand
+      Pinterest, Google, YouTube, X
+      ↓
+      Bupora.com
+      ↓
+      Email list
+      ↓
+      Products
+      ↓
+      Merch / Ebook / KDP
+    Merch:
+      Brand merch (curated, chất lượng, brand identity)
+      ↓
+      shop.bupora.com (Fourthwall)
+    Scale merch:
+      Design catalog
+      ↓
+      Merch by Amazon (Marketplace, scale design, tận dụng Amazon traffic)
+
+  ✅ Tóm tắt Bupora ecosystem
+    Bupora là một dog lifestyle media brand với website làm content hub, Pinterest và Google là traffic engine chính, YouTube và X để mở rộng audience, email để giữ độc giả, và kiếm tiền qua merch (shop.bupora.com + Merch by Amazon), ebook, và KDP books.
+
+Social
+  Pinterest: https://www.pinterest.com/shopbupora/
+  Youtube: https://www.youtube.com/@bupora | https://www.youtube.com/channel/UCFIIf0KnY-axmXAVc8applg
+  Instagram: https://www.instagram.com/shopbupora/
+  Twitter-X: https://x.com/thebupora
+
+  TikTok: https://www.tiktok.com/@bupora
+  Tumblr: https://www.tumblr.com/bupora
+  Youtube: https://www.youtube.com/@buporafun/
+  
+  File → Export → Export As → SVG
+    Styling: Presentation Attributes
+    Font: Convert to outlines
+    Images: Embed
+    Decimal: 2–3
+    Minify: ✔
+    Responsive: ✔
+
+==================
+Main Navigation (Header)
+Breeds | Care | Life | Shop
+Breeds   (specific)
+Care     (practical)
+Life     (lifestyle)
+Shop     (products)
+
+1. Breeds
+  Đây sẽ là SEO pillar lớn nhất.
+  Trang hub:
+    /breeds/
+  Bên trong:
+    Golden Retriever
+    Labrador Retriever
+    French Bulldog
+    German Shepherd
+    etc.
+  Ví dụ URL:
+    /breeds/golden-retriever/
+    /breeds/labrador-retriever/
+  Content:
+    breed guide
+    temperament
+    care tips
+    pros & cons
+  Pinterest cực thích dạng content này.
+
+2. Care
+  Dog care hub.
+    /care/
+  Sub topics:
+    Puppy care
+    Grooming
+    Training
+    Nutrition
+    Health
+  Ví dụ:
+    /care/puppy-care/
+    /care/dog-grooming/
+    /care/dog-training/
+    /care/dog-nutrition/
+
+3. Life
+  Lifestyle với chó.
+    /life/
+  Content:
+    dog mom life
+    activities with dogs
+    dog routines
+    stories
+  Ví dụ:
+    /life/dog-mom/
+    /life/activities-with-dogs/
+    /life/living-with-dogs/
+  Phần này rất hợp Pinterest.
+
+4. Shop
+  Link tới:
+    shop.bupora.com
+  Hoặc:
+    /shop/
+    Rồi redirect.
+  Products:
+    dog mom merch
+    breed merch
+    Đây là brand merch curated (Fourthwall).
+
+Footer Navigation
+  Footer nên chứa thêm:
+    About
+    Contact
+    Subscribe
+    Shop
+    Privacy Policy
+
+Internal Content Structure
+  Website có 3 content pillars:
+    Breeds
+    Care
+    Life
+  Tất cả bài viết đều nằm trong 3 nhóm này.
+    Điều này giúp:
+      SEO mạnh hơn
+      site architecture rõ ràng
+Traffic Flow
+  Pinterest + Google sẽ dẫn tới:
+    Article
+    ↓
+    Topic Hub
+    ↓
+    Subscribe
+    ↓
+    Products
+
+Homepage Structure clean
+Hero
+↓
+Featured Guide
+↓
+Popular Topics
+↓
+Latest Articles
+↓
+Newsletter
+↓
+Footer

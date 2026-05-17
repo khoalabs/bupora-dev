@@ -1,0 +1,151 @@
+================================================================================
+  BUPORA ART — HỆ THỐNG KINH DOANH
+  Cập nhật lần cuối: 2026
+================================================================================
+
+
+┌─────────────────────────────────────────────────────────────┐
+│                    🎨  BUPORA ART  🎨                       │
+│                   [ Hub Trung Tâm ]                         │
+│                                                             │
+│   🌐 bupora.com          →  Trung tâm brand, Google Adsense │
+│   🛒 shop.bupora.com     →  Fourthwall shop chính           │
+│   📁 behance.net/bupora  →  Portfolio chuyên nghiệp         │
+└─────────────────────────────────────────────────────────────┘
+                            │
+              ┌─────────────┴─────────────┐
+              ▼                           ▼
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  📡  KÊNH KÉO TRAFFIC  (Evergreen — không cần post hàng ngày)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ▶  YouTube  @bupora
+     - Funny dog content + Speed design
+     - YouTube Shelf → bán thẳng trên Fourthwall
+     - Video cũ vẫn có traffic mãi
+
+  📌  Pinterest  @shopbupora
+     - Pin mockup design → link về Fourthwall
+     - Traffic tự nhiên, evergreen
+     - Không cần làm video
+
+                            │
+                            ▼
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  👕  BÁN MERCH  (Áo là chính)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  [#1] 🏪  Fourthwall  →  shop.bupora.com
+          + Margin cao nhất
+          + Brand riêng, tự chủ hoàn toàn
+          + Kết nối YouTube Shelf
+          + Không ai lấy đi được
+
+  [#2] 👕  TeePublic  →  teepublic.com/user/bupora
+          + Passive, tự có traffic
+          + Brand awareness: khách Google "Bupora Art" → bupora.com
+          + Upload 1 lần, thu mãi
+
+  [#3] 🛍️  Zazzle  →  zazzle.com/store/bupora
+          + Reuse design sẵn có, không tốn công
+          + Demographic khác TeePublic
+          + Brand awareness thêm một kênh nữa
+
+                            │
+                            ▼
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🗂️  THU NHẬP KỸ THUẬT SỐ  (Passive hoàn toàn)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  📦  Adobe Stock
+          + Upload vector / illustration
+          + Version KHÁC từ cùng concept merch (tránh conflict license)
+          + Đơn giản hơn, tách elements, nền transparent
+          + Upload 1 lần → thu tiền nhiều năm
+
+                            │
+                            ▼
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🚀  MỤC TIÊU TIẾP THEO
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  [PENDING] 🛒  Merch by Amazon
+          + Apply khi TeePublic + Behance đủ mạnh (~20-30 design)
+          + Traffic Amazon lớn hơn TeePublic rất nhiều
+          + Reuse toàn bộ design sẵn có, không cần tạo mới
+          + Hồ sơ apply: bupora.com + shop.bupora.com + TeePublic + Behance
+
+
+================================================================================
+  ⚡  QUY TRÌNH MỖI KHI CÓ DESIGN MỚI
+================================================================================
+
+  Bước 1  →  Lưu file .ai gốc trên máy  (giữ đầy đủ layer, KHÔNG flatten)
+     │
+  Bước 2  →  Upload Lark Drive  (100GB · timestamp bản quyền)
+     │           + Backup thêm Google Drive nếu file quan trọng
+     │
+  Bước 3  →  Upload Fourthwall  (timestamp công khai đầu tiên)
+     │           + Setup mockup đẹp, lấy link sản phẩm
+     │
+  Bước 4  →  Upload TeePublic + Zazzle  (reuse y chang, ~20 phút)
+     │
+  Bước 5  →  Tạo Pinterest Pin  (dùng mockup từ Fourthwall → link về Fourthwall)
+     │
+  Bước 6  →  Cập nhật bupora.com  (thêm design mới vào shop section)
+     │
+  Bước 7  →  Adobe Stock  (nếu có version vector riêng đã simplify)
+
+
+================================================================================
+  🛡️  BẢO VỆ BẢN QUYỀN
+================================================================================
+
+  File gốc cần giữ:
+    ✅  .ai   →  Quan trọng nhất (chứa vector paths, layer, metadata)
+    ✅  .psd  →  Nếu làm trên Photoshop (.psb nếu file >2GB)
+    ❌  .png  →  Không cần giữ, export lại từ .ai khi cần
+
+  Thứ tự lưu backup:
+    1. Máy local  (bản gốc, không bao giờ xóa)
+    2. Lark Drive  (100GB miễn phí, nhanh ở VN)
+    3. Google Drive  (backup phụ, file quan trọng nhất)
+
+  Bằng chứng bản quyền khi tranh chấp:
+    → File .ai gốc  +  Timestamp Lark/Drive  +  Ngày upload Fourthwall
+
+
+================================================================================
+  🏷️  BRAND NHẤT QUÁN TRÊN MỌI NỀN TẢNG
+================================================================================
+
+    Tên hiển thị  :  Bupora Art
+    Behance       :  First name: Bupora  /  Last name: Art
+    Website       :  bupora.com
+    Shop          :  shop.bupora.com
+    YouTube       :  @bupora
+    Pinterest     :  @shopbupora
+    TeePublic     :  teepublic.com/user/bupora
+    Zazzle        :  zazzle.com/store/bupora
+    Adobe Stock   :  Display name: Bupora Art
+
+  → Khách tìm thấy từ BẤT KỲ đâu cũng Google ra "Bupora Art"
+  → Tất cả đều dẫn về bupora.com
+
+
+================================================================================
+  💡  NGUYÊN TẮC CỐT LÕI
+================================================================================
+
+    1. Fourthwall  =  tài sản thật sự, không ai lấy đi được
+    2. TeePublic + Zazzle  =  kênh passive + brand awareness
+    3. Adobe Stock  =  thu nhập kỹ thuật số song song
+    4. YouTube + Pinterest  =  traffic engine dài hạn
+    5. bupora.com  =  hub trung tâm, tạo trust
+    6. KHÔNG ôm thêm nền tảng mới cho đến khi hệ thống này ổn định
+
+================================================================================
