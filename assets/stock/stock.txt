@@ -1,0 +1,220 @@
+Stock phải xoay quanh ecosystem của brand (dog/pet), không phải ngược lại
+👉 Cách xử lý:
+
+dùng:
+Pinterest
+blog content (bupora.com)
+để test:
+idea
+wording
+vibe
+
+1. Brand
+đưa vào shop.bupora
+có text / vibe / identity
+
+2. Adobe Stock
+version clean
+không text
+keyword chuẩn
+
+💡 Một check cực quan trọng mỗi tuần
+
+Bạn tự hỏi:
+
+1. Brand:
+tuần này có thêm:
+content?
+sản phẩm?
+
+
+2. Stock:
+có thêm asset không?
+có tăng library không?
+
+👉 Nếu 1 trong 2 = 0
+→ bạn đang mất cân bằng
+
+
+
+✔ tập trung hoàn toàn vào:
+
+bupora.com
+shop.bupora.com
+Adobe Stock
+
+🧠 Nguyên tắc cốt lõi
+
+👉 Trên Adobe Stock bạn bán:
+
+utility + flexibility + reuse
+
+🔥 5 nhóm sản phẩm bạn NÊN làm (ưu tiên theo ROI)
+1. 🐕 Character base (quan trọng nhất)
+
+👉 Đây là “mỏ vàng”
+
+Bạn làm:
+
+1 con chó (style riêng)
+nhiều pose:
+sitting
+running
+happy
+sad
+sleeping
+
+👉 upload:
+
+từng file riêng
+hoặc set
+
+💡 Buyer dùng cho:
+
+mascot
+app
+blog
+quảng cáo
+2. 🎯 Isolated objects (dễ bán, scale nhanh)
+
+👉 cực kỳ quan trọng
+
+Ví dụ:
+
+dog face
+paw
+bone
+leash
+dog bowl
+
+💡 Yêu cầu:
+
+nền trong suốt
+sạch sẽ
+dễ drag & drop
+
+👉 Đây là loại:
+
+bán nhiều nhất nhưng ít ai làm kỹ
+
+3. 📦 Icon set (bán rất đều)
+
+Ví dụ:
+
+pet care icons
+dog training icons
+vet icons
+
+👉 format:
+
+line / filled
+đồng bộ style
+
+💡 Buyer:
+
+UI/UX designer
+website builder
+4. 🎨 Scene / lifestyle illustration
+
+Ví dụ:
+
+dog walking in park
+dog at home
+dog with owner
+
+👉 dùng cho:
+
+blog header
+ads
+
+⚠️ nhưng:
+
+phải simple
+không quá “artistic”
+5. 🧩 Pattern / background
+
+Ví dụ:
+
+seamless dog pattern
+paw pattern
+
+👉 dùng cho:
+
+packaging
+print
+web background
+⚠️ 5 thứ KHÔNG nên làm (tránh lãng phí thời gian)
+❌ 1. Art quá “nghệ”
+đẹp nhưng không dùng được
+❌ 2. Design có text
+“Dog Mom”, “Love Dogs”
+
+👉 cái này dành cho merch, không phải stock
+
+❌ 3. Style quá đặc thù brand
+khó reuse
+❌ 4. File phức tạp, khó chỉnh sửa
+buyer ghét
+❌ 5. Một lẻ tẻ, không system
+không scale
+🔥 Công thức vàng cho bạn (rất quan trọng)
+1 idea → 5–10 asset
+
+Ví dụ:
+
+👉 bạn vẽ 1 con Shiba
+
+Bạn phải extract:
+
+shiba sitting
+shiba running
+shiba face
+shiba sleeping
+shiba icon
+
+👉 1 buổi = 10 upload
+
+🧠 Keyword mindset (rất quan trọng)
+
+Bạn không đặt:
+
+“cute dog art”
+
+Bạn đặt:
+
+“dog mascot vector”
+“puppy illustration isolated”
+“pet icon set line”
+
+👉 luôn nghĩ:
+
+“designer sẽ search gì?”
+
+⚡ Chiến lược nhanh cho bạn (solo)
+Tuần 1–2:
+build 1 dog character system
+Tuần 3–4:
+expand:
+pose
+icon
+variation
+Sau đó:
+mỗi tuần:
+10–20 asset
+🎯 Kết luận thẳng
+
+👉 Trên Adobe Stock bạn KHÔNG bán:
+
+art
+cảm xúc
+
+👉 Bạn bán:
+
+công cụ cho designer
+🧩 Câu chốt
+
+👉 Nếu design của bạn:
+
+người khác có thể dùng ngay trong project
+
+→ bạn sẽ có tiền
