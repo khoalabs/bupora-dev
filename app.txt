@@ -1,0 +1,1401 @@
+yourbrand = A dog-first lifestyle media brand with curated merch.
+media trước, Merch và affiliate nằm phía sau.
+Bạn đang xây asset.
+	Affiliate = tiền thuê nhà.
+	Merch + brand = căn nhà.
+
+🧠 Cấu trúc nội dung nên đi theo hình kim tự tháp
+	🟢 Tầng 1 – Authority / Culture (50%)
+		Things only dog moms understand
+		Why golden retrievers are emotional support heroes
+		A day in my life as a dog dad
+		Ở đây:
+			Không bán hàng nặng.
+			Chỉ xây trust.
+	🟡 Tầng 2 – Commercial lifestyle (30%)
+		Best gifts for dog moms
+		Must-have essentials for new puppy owners
+		Things I bought after getting my first dog
+		Ở đây:
+			50% merch của bạn
+			50% affiliate (Amazon)
+	🔴 Tầng 3 – Transactional (20%)
+		Collection page
+		Product page
+		Curated gift lists
+		Ở đây:
+			Là nơi tiền nằm.
+	🎥 YouTube chiến lược thế nào?
+		YouTube làm:
+			Storytelling
+			POV
+			Humor
+			Emotional bonding
+		Sau đó description link về:
+			Blog post mở rộng
+			Collection page
+			Không nhét 10 link Amazon trong mô tả.
+	💰 Affiliate nên đặt ở đâu?
+		Chỉ dùng khi:
+		Thật sự bổ trợ cho lifestyle
+		Không cạnh tranh trực tiếp với merch
+		Ví dụ:
+			Bạn bán shirt.
+			Affiliate có thể là:
+				Dog grooming kit
+				Dog camera
+				Car seat cover
+			Không affiliate áo thun dog mom.
+	🧨 Nguyên tắc sống còn
+	Affiliate không bao giờ vượt quá 40% tổng content.
+🚀 Tư duy 2 năm
+	Năm 1:
+		Build 100–150 bài
+		50 video
+		Test xem:
+		Content nào có traffic
+		Content nào convert
+
+	Năm 2:
+		Đẩy mạnh collection convert tốt
+		Có thể launch limited merch riêng
+		Bắt đầu xây email list mạnh
+
+===================
+kiến trúc website hybrid chuẩn SEO + brand + affiliate — nhưng theo đúng định vị lifestyle media, không phải niche site 👀
+Chúng ta tối ưu cho:
+	Authority lâu dài
+	Internal linking mạnh
+	Conversion tự nhiên
+	Không bị dính “affiliate footprint”
+
+🧱 1️ Cấu trúc tổng thể (High-Level Architecture)
+	/
+	├── /blog/
+	├── /collections/
+	├── /products/
+	├── /topics/
+	├── /about/
+
+🧠 2️ Topic Cluster Structure (xương sống SEO)
+	/topics/golden-retriever/   ← Pillar page
+		├── /golden-retriever-personality/
+		├── /golden-retriever-gift-ideas/
+		├── /things-only-golden-retriever-owners-understand/
+	Pillar page phải:
+		2.000–3.000 từ
+		Internal link toàn bộ bài liên quan
+		Có section merch nhẹ nhàng
+		Có resource affiliate chọn lọc
+		Google thích cấu trúc này vì nó tạo topical authority.
+		
+🛍 3️ Collections (trung tâm tiền)
+	Collections không nên chỉ là list sản phẩm.
+	/collections/dog-mom-shirts/
+	Trang này phải có:
+			500–800 từ intro SEO
+			Emotional angle
+			FAQ section
+			Internal link sang blog liên quan
+			Sản phẩm của bạn
+	Không đặt affiliate ở collection page.
+	Collection = territory của brand.
+📝 4️ Blog Article Structure (chuẩn hybrid)
+	Một bài blog chuẩn nên có cấu trúc:
+	1 Hook cảm xúc
+	2 Story / insight
+	3 Value section
+		“If you love this, you might also like”
+			2 merch
+			1–2 affiliate
+	Internal links sang:
+		1 pillar
+		2 supporting articles
+		1 collection
+	Affiliate không nằm ở top.
+	Affiliate không nằm ở first screen.
+	Affiliate không spam link.
+🏷 5️ URL Strategy
+	Đừng làm:
+		/blog/best-dog-mom-shirt-2026/
+	Hãy làm:
+		/dog-mom-gift-ideas/
+		/golden-retriever-gifts/
+		/funny-dog-owner-quotes/
+	Giữ URL clean, không lộ structure “blog”.
+
+🔗 6️ Internal Linking Framework
+	Mỗi bài phải link:
+		1 pillar
+		1 collection
+		2 related blog
+		1 homepage (gián tiếp)
+	Sau 100 bài, bạn sẽ có web cực kỳ dày link nội bộ.
+	Đó là lợi thế so với affiliate site.
+
+🎥 7️ YouTube Integration
+	Mỗi video:
+		Có 1 blog companion page
+		Blog embed video
+		Video description link về blog
+		Blog link về collection
+		Tạo vòng lặp traffic.
+
+💰 8️ Affiliate Placement Rules
+	Affiliate chỉ được đặt:
+		Trong “Recommended resources”
+		Trong section “Tools I personally use”
+		Trong gift guide
+	Không đặt:
+		Trong navigation
+		Trong homepage hero
+		Trong collection page
+
+📊 9️ Conversion Funnel
+	Traffic flow nên là:
+		YouTube
+			→ Blog
+			→ Collection
+			→ Product
+			→ Fourthwall
+	Affiliate nằm xen kẽ như “supporting layer”.
+
+🧨 10 Điều phân biệt bạn với niche site
+	Niche site:
+		Content xoay quanh product
+		Monetization là trung tâm
+	Bạn:
+		Content xoay quanh identity
+		Monetization là hệ quả
+🚀 6 tháng đầu nên làm gì?
+	3 pillar topics lớn (Dog Mom, Golden Retriever, Puppy Life)
+	Mỗi pillar 8–12 bài supporting
+	3–5 collection mạnh
+	30–40 bài blog
+	20 video lifestyle
+	👉 Đủ để Google bắt đầu hiểu bạn là brand.
+
+================
+Bupora niche rộng kiểu “all dog lovers”
+🧱 1 Cấu trúc website cho niche rộng (All Dog Lovers)
+	Thay vì chia theo breed trước, bạn chia theo Life Stage + Identity + Lifestyle Angle
+	🌐 Homepage
+	Homepage không phải blog feed.
+	Homepage phải là:
+		Brand statement
+		3–4 content hub chính
+		Highlight collection merch
+	Ví dụ structure:
+		Hero (Dog-first culture brand)
+		↓
+		Explore by Topic
+		↓
+		Featured Stories
+		↓
+		Shop the Culture
+🗂 2 Topic Hub Structure (Rất quan trọng)
+	Với niche rộng, bạn phải có Hubs.
+	Ví dụ:
+	/topics/
+		dog-mom/
+		dog-dad/
+		puppy-life/
+		senior-dogs/
+		dog-humor/
+		dog-gifts/
+	Mỗi hub là 1 pillar page 2000–3000 từ.
+	Hub phải:
+		Giải thích chủ đề
+		Link toàn bộ bài liên quan
+		Có section merch nhẹ
+		Có section “recommended tools” (affiliate)
+🧠 3 Tổ chức theo 3 trục nội dung
+	Để không loãng, bạn dùng 3 trục:
+		🟢 Identity
+			Dog mom
+			Dog dad
+			Rescue owner
+			First-time owner
+		🟡 Life Stage
+			Puppy
+			Adult dog
+			Senior dog
+		🔵 Lifestyle
+			Travel with dogs
+			Home decor
+			Humor
+			Gifts
+	Mỗi bài phải thuộc ít nhất 1 trục chính.
+🛍 4 Collections Strategy (Merch trung tâm)
+	Collections không chia theo “shirt / hoodie”.
+	Chia theo:
+		Dog Mom Shirts
+		Funny Dog Owner Gifts
+		Golden Retriever Lovers
+		Rescue Dog Pride
+	Collection page phải có:
+		SEO intro
+		Emotional storytelling
+		FAQ
+		Internal links sang hub
+
+🔗 5️ Internal Linking Framework cho niche rộng
+	Mỗi bài phải:
+		Link về 1 Topic Hub
+		Link về 1 Collection
+		Link về 2 bài cùng trục
+	Sau 6 tháng, Google sẽ hiểu:
+		Bupora = authority về dog culture, không chỉ 1 breed.
+💰 6 Affiliate Placement trong niche rộng
+	Affiliate chỉ xuất hiện trong:
+		Gift guides
+		Essentials lists
+		“Things I use daily”
+		Puppy checklist
+	Không xuất hiện trong identity content kiểu:
+	“Why being a dog mom is different”
+
+🎥 7 YouTube Integration cho niche rộng
+	YouTube playlist nên theo Hub:
+		Dog Mom Stories
+		Puppy Journey
+		Funny Dog Life
+		Dog Owner Real Talk
+	Mỗi playlist = 1 hub trên website.
+
+📊 8 SEO chiến lược 12 tháng
+	Thay vì đập 100 chủ đề lung tung, bạn nên:
+	3 tháng đầu:
+		Tập trung 3 hub:
+			Dog Mom
+			Puppy Life
+			Dog Gifts
+	6 tháng:
+		Mở rộng thêm:
+			Dog Humor
+			Travel With Dogs
+	12 tháng:
+		Bắt đầu mở sâu breed nếu thấy traffic tốt.
+🧨 Sai lầm phải tránh
+	Niche rộng mà viết kiểu:
+		“Best dog food”
+		“Best dog beds”
+		“Best dog toys”
+	→ Bạn sẽ đối đầu site chuyên review.
+	Bạn phải giữ góc “culture + identity”.
+==================
+Cấu trúc homepage tối ưu conversion
+Với hybrid model (lifestyle + merch + affiliate nhẹ), homepage phải làm 3 việc:
+	Định vị
+	Điều hướng thông minh
+	Đẩy conversion tự nhiên
+Không được làm kiểu blog feed. Không được làm kiểu “shop thuần”.
+
+🎯 Mục tiêu homepage của Bupora
+Khi vào trang đầu → người ta hiểu:
+	Đây là culture brand dành cho dog lovers.
+Sau 10–15 giây → họ biết phải click gì tiếp theo.
+Sau 60 giây → họ thấy merch.
+Sau 3 phút → họ trust bạn.
+
+🧱 Cấu trúc homepage tối ưu conversion (Hybrid)
+1 Hero Section (Above the Fold)
+	Phải có:
+		1 headline mạnh về identity
+		1 subheadline nói rõ bạn là ai
+		2 CTA
+	Ví dụ structure:
+		Headline: For People Who Love Dogs Like Family
+		Subheadline: Stories, lifestyle, and curated pieces for dog-first humans.
+		[Explore Stories]   [Shop the Culture]
+	👉 CTA 1 = traffic build
+	👉 CTA 2 = money build
+	Đừng để 1 CTA duy nhất.
+2 Explore by Identity (Hub Navigation)
+	Đây là phần quan trọng để SEO + UX.
+	Grid 4–6 card:
+		Dog Mom
+		Dog Dad
+		Puppy Life
+		Funny Dog Life
+		Dog Gifts
+		Travel With Dogs
+	Mỗi card link đến Topic Hub.
+	Giúp:
+		Google hiểu cấu trúc
+		User tìm đúng nhóm của họ
+3 Featured Stories (Authority Builder)
+	3–6 bài lifestyle nổi bật.
+	Không hiển thị toàn blog feed.
+	Chọn bài có:
+		Emotional angle
+		Time-on-page cao
+		Traffic tốt
+	Ở đây không đặt affiliate.
+4 Shop the Culture (Merch Block)
+	Phải có 1 section rõ ràng cho merch.
+	Nhưng trình bày theo cảm xúc, không kiểu Shopify grid.
+	Ví dụ:
+		“Dog Mom Collection”
+			3–4 sản phẩm nổi bật
+			CTA: View Collection
+	Không show giá ngay ở homepage.
+	Để người ta click vào collection.
+5 Curated Essentials (Affiliate nhẹ)
+	Chỉ 1 section nhỏ.
+	Tiêu đề nên kiểu:
+		“Things We Actually Use”
+			3 sản phẩm Amazon
+			Không quá nổi bật
+			Không banner to
+	Affiliate không được chiếm spotlight.
+6 About / Brand Story Teaser
+	Một đoạn ngắn:
+		Vì sao Bupora tồn tại
+		Triết lý dog-first
+	Link đến trang About.
+	Brand trust nằm ở đây.
+7 Email Capture (Quan trọng nếu build 2 năm)
+	Không pop-up khó chịu.
+	Section:
+		“Join the Dog-First Community”
+			Lợi ích cụ thể
+			Free printable / checklist / mini guide
+	Email là tài sản thật sự.
+🚀 Conversion Flow lý tưởng
+	Homepage
+	→ Hub
+	→ Blog
+	→ Collection
+	→ Product
+	→ Fourthwall
+	Affiliate nằm xen giữa blog.
+🧠 Layout tổng thể
+	Hero
+	↓
+	Identity Hubs
+	↓
+	Featured Stories
+	↓
+	Shop the Culture
+	↓
+	Curated Essentials
+	↓
+	About
+	↓
+	Email
+🧨 3 sai lầm cần tránh
+	Homepage toàn blog feed
+	Homepage toàn sản phẩm
+	Homepage nhét affiliate banner
+	Nếu vậy Google sẽ không hiểu bạn là brand.
+🎯 Tư duy cuối cùng
+	Homepage không phải để bán ngay.
+	Homepage để:
+		Định vị
+		Điều hướng
+		Kích hoạt hành trình
+	Conversion thật sự xảy ra ở collection và blog.
+=============
+B) “À cái brand làm content về dog culture rất hay”
+thì mọi quyết định kiến trúc phải phục vụ mục tiêu đó.
+Không được để merch dẫn dắt nhận diện.
+Merch phải là phần mở rộng của culture.
+
+🎯 Homepage chuẩn cho Brand-First (nhưng vẫn bán được)
+	1 Hero – Identity trước, bán sau
+		Không nói về áo.
+		Không nói về giá.
+		Ví dụ hướng thông điệp:
+			For people who love dogs like family.
+			Stories, humor, lifestyle — and pieces that speak your dog language.
+		CTA chính:
+			Explore Stories
+		CTA phụ:
+			Shop the Culture
+		Merch có mặt, nhưng không chiếm spotlight.
+	2 Topic Hubs (Authority Engine)
+		Grid 4–6 mục:
+			Dog Mom
+			Puppy Life
+			Funny Dog Culture
+			Dog Gifts
+			Travel With Dogs
+			Senior Dogs
+		Đây là xương sống SEO.
+		Khi Google crawl homepage, nó phải hiểu:
+			Đây là content authority, không phải shop.
+	3 Featured Stories (Trái tim brand)
+		3–6 bài storytelling mạnh.
+		Không đặt affiliate trong phần này.
+		Đây là nơi tạo “wow, mình thấy mình trong đó”.
+	4 Subtle Merch Integration
+		Một section kiểu:
+			“Wear Your Dog Love”
+				3 sản phẩm nổi bật
+				Link sang collection
+				Không grid 20 sản phẩm
+				Không nhét discount
+		Merch là extension của identity.
+	5 Community / Email
+		Nếu bạn build 2 năm, email là bắt buộc.
+		Ví dụ:
+			Join the Dog-First Community
+			Get stories, gift ideas & lifestyle inspiration.
+		Sau 1 năm, email list sẽ là tài sản thật.
+	6 Affiliate chỉ nên xuất hiện ở đâu?
+		Không xuất hiện trên homepage chính.
+		Affiliate chỉ nằm trong:
+		Gift guides
+		Essentials article
+		Resource page
+		Homepage = brand territory.
+🧠 Chiến lược dài hạn bạn vừa chọn
+	Year 1:
+		Xây authority
+		Xây internal linking
+		Xây email
+		Merch bán vừa phải
+	Year 2:
+		Tối ưu collection
+		Đẩy sản phẩm bán chạy
+		Có thể launch limited drop
+🔥 Cái lợi lớn nhất
+	Khi bạn build brand-first:
+		YouTube traffic không cảm giác bị bán
+		SEO không bị coi là affiliate site
+		Merch có giá trị cảm xúc cao hơn
+		Sau này bạn có thể ra sản phẩm riêng (không phụ thuộc Fourthwall)
+===========
+Structure Topic Hub chi tiết (ví dụ Dog Mom hub phải có gì)
+phần quan trọng nhất của SEO hybrid
+Topic Hub = vũ khí authority + internal linking + điều hướng conversion.
+Vì bạn chọn brand-first, nên hub không được viết kiểu “SEO machine”.
+Nó phải vừa có chiều sâu văn hoá, vừa có cấu trúc kỹ thuật tốt.
+Mình lấy ví dụ cụ thể: Dog Mom Hub
+🧱 Cấu trúc chuẩn cho Topic Hub: /topics/dog-mom/
+	Hub này phải làm được 4 việc:
+		Định nghĩa identity
+		Gom toàn bộ content liên quan
+		Đẩy nhẹ sang collection
+		Giữ người đọc ở lại lâu
+🎯 1 Hero Section – Identity Framing
+	Phần đầu không phải SEO nhồi keyword.
+	Mà là:
+		Headline mạnh về identity
+		1–2 đoạn mở đầu cảm xúc (300–400 từ)
+	Ví dụ hướng nội dung:
+		Being a dog mom isn’t just about having a pet.
+		It’s a lifestyle, a bond, and a whole new way of loving.
+	Ở đoạn này:
+		Có 1 link về collection Dog Mom Shirts (rất tự nhiên)
+		Không affiliate
+🧠 2️ Core Guide Section (Mini Pillar Content)
+	Hub không chỉ là trang link.
+	Nó phải có 800–1500 từ nội dung thực sự.
+	Chia thành các section:
+		a) What It Means to Be a Dog Mom
+			Emotional
+			Culture angle
+		b) Everyday Life as a Dog Mom
+			Routine
+			Funny moments
+		c) Challenges & Growth
+			Separation anxiety
+			Guilt
+			Vet stress
+		d) Celebrating Dog Mom Culture
+			Gift ideas
+			Humor
+			Pride
+		Ở phần d) bạn có thể:
+			Link 2 bài gift guide
+			Link collection
+			Affiliate 1–2 sản phẩm nhỏ (không bắt buộc)
+📚 3️ Content Clusters (Rất quan trọng)
+	Sau phần pillar intro, bạn chia thành 4 nhóm bài:
+	🟢 Stories & Culture
+		Things Only Dog Moms Understand
+		Why Being a Dog Mom Changes You
+		The Emotional Side of Dog Motherhood
+	🟡 Practical Life
+		Puppy Checklist for First-Time Dog Moms
+		Dog Mom Morning Routine
+		Travel Tips for Dog Moms
+	🟠 Gifts & Celebration
+		Best Gifts for Dog Moms
+		Dog Mom Birthday Ideas
+		Mother’s Day Gifts for Dog Moms
+		Đây là nơi bạn chèn affiliate hợp lý.
+	🔵 Merch & Style
+		Dog Mom Shirt Styling Ideas
+		How to Choose the Perfect Dog Mom Gift
+		Ở đây bạn đẩy collection mạnh hơn.
+🛍 4 Collection Integration (Conversion Layer)
+	Sau phần content clusters, có block:
+	“Wear Your Dog Mom Pride”
+		3 sản phẩm nổi bật
+		CTA → View Full Collection
+	Không đặt block này ở trên đầu.
+🔗 5 Internal Linking Rules
+	Hub phải:
+		Link về homepage
+		Link về 6–12 bài con
+		Nhận link từ tất cả bài con
+	Mỗi bài “Dog Mom” phải link ngược về hub.
+	Sau 6 tháng, Google sẽ hiểu:
+		Bupora = authority về Dog Mom culture.
+📊 6️ SEO kỹ thuật
+	Hub phải có:
+		Unique meta title
+		Unique meta description
+		H2 rõ ràng
+		Structured data (Article hoặc CollectionPage nếu có merch)
+		FAQ schema (2–3 câu hỏi)
+	Ví dụ FAQ:
+		What does being a dog mom mean?
+		What is a good gift for a dog mom?
+	FAQ giúp ranking rất tốt.
+🚀 7️ Flow Traffic
+	User từ Google vào:
+		Dog Mom hub
+		→ Click story
+		→ Click collection
+		→ Click product
+	Affiliate chỉ xuất hiện trong gift guide article.
+🧨 Sai lầm cần tránh
+	Hub chỉ là trang liệt kê link
+	Hub quá ngắn (<500 từ)
+	Hub biến thành collection page
+	Nhét 10 sản phẩm lên đầu
+🔥 Tư duy chiến lược
+	Mỗi hub là một “mini authority site” trong domain của bạn.
+	Sau này bạn sẽ có:
+		Dog Dad Hub
+		Puppy Life Hub
+		Funny Dog Hub
+		Travel With Dogs Hub
+	Mỗi hub 15–30 bài supporting.
+	Đó là cách đánh affiliate site mà không trở thành affiliate site.
+==========
+Flask + Tailwind v4.2.0 + PostgreSQL
+🧱 1️ Kiến trúc tổng thể project (chuẩn production ngay từ đầu)
+	bupora/
+	│
+	├── app/
+	│   ├── __init__.py
+	│   ├── models.py
+	│   ├── routes/
+	│   │   ├── main.py
+	│   │   ├── blog.py
+	│   │   ├── shop.py
+	│   │   └── topic.py
+	│   │
+	│   ├── templates/
+	│   │   ├── base.html
+	│   │   ├── components/
+	│   │   │   ├── navbar.html
+	│   │   │   ├── footer.html
+	│   │   │   ├── hero.html
+	│   │   │   └── card_article.html
+	│   │   ├── pages/
+	│   │   │   ├── home.html
+	│   │   │   ├── topic.html
+	│   │   │   ├── article.html
+	│   │   │   └── collection.html
+	│   │
+	│   └── static/
+	│       └── css/
+	│           ├── input.css
+	│           └── output.css
+	│
+	├── migrations/
+	├── config.py
+	├── run.py
+	└── requirements.txt
+🗄 2 Database Design (PostgreSQL – đủ cho hybrid model)
+	topics
+		id
+		name
+		slug
+		description
+		created_at
+	posts
+		id
+		title
+		slug
+		content
+		excerpt
+		topic_id (FK)
+		post_type   # blog | gift_guide | lifestyle
+		is_featured
+		created_at
+	products
+		id
+		name
+		slug
+		product_type  # merch | affiliate
+		price
+		affiliate_url
+		image_url
+		is_featured
+		created_at
+	collections
+		id
+		name
+		slug
+		description
+		created_at
+	collection_products
+		collection_id
+		product_id
+	tags
+	youtube_videos
+	email_subscribers
+🏠 3️ Cấu trúc Home Page (Brand-first, không phải shop-first)
+	Hero
+	↓
+	Brand Statement
+	↓
+	Featured Stories
+	↓
+	Featured Collection
+	↓
+	YouTube Block
+	↓
+	Email Capture
+	↓
+	Footer
+🎨 4 Home Layout Wireframe
+	🔥 Hero Section
+			Big emotional headline
+			1 CTA: Explore Stories
+			1 CTA phụ: Shop the Culture
+		Không hiển thị sản phẩm ở trên cùng.
+	🧠 Brand Intro
+		2–3 đoạn nói về:
+			Dog culture. Modern dog humans. Identity.
+	📰 Featured Articles (3 bài)
+		Card layout grid:
+			Image
+			Title
+			2 line excerpt
+			Read more
+	🛍 Featured Collection (3 sản phẩm)
+		3 product cards
+		1 CTA “View All”
+		Không show affiliate ở đây.
+	🎥 YouTube Block
+		Embed 1 video mới nhất.
+		Hybrid traffic funnel bắt đầu từ đây.
+	📧 Email
+		“Join the dog-first life.”
+		Đừng viết kiểu discount spam.
+🧠 5️ SEO Technical Structure
+	Home cần:
+		Proper H1 (chỉ 1 cái)
+		Schema Organization
+		Fast load
+		Image lazy load
+		Static pre-render content
+⚙ 6️ Flask Setup Strategy
+	Chúng ta dùng:
+		Flask
+		Flask-SQLAlchemy
+		Flask-Migrate
+		psycopg2-binary
+	Không cần CMS lúc đầu.
+	Bạn control content bằng database trực tiếp hoặc admin mini sau này.
+================
+B) Dùng app factory pattern + blueprint chuẩn production ngay từ đầu
+🧱 1️ Cấu trúc thư mục chuẩn production
+	bupora/
+	│
+	├── app/
+	│   ├── __init__.py        # create_app()
+	│   ├── extensions.py      # db, migrate
+	│   ├── models.py
+	│   │
+	│   ├── main/              # homepage + static pages
+	│   │   ├── __init__.py
+	│   │   └── routes.py
+	│   │
+	│   ├── blog/
+	│   │   ├── __init__.py
+	│   │   └── routes.py
+	│   │
+	│   ├── shop/
+	│   │   ├── __init__.py
+	│   │   └── routes.py
+	│   │
+	│   ├── topic/
+	│   │   ├── __init__.py
+	│   │   └── routes.py
+	│   │
+	│   ├── templates/
+	│   └── static/
+	│
+	├── migrations/
+	├── config.py
+	├── run.py
+	├── requirements.txt
+	└── .env
+⚙️ 2 extensions.py
+	from flask_sqlalchemy import SQLAlchemy
+	from flask_migrate import Migrate
+
+	db = SQLAlchemy()
+	migrate = Migrate()
+🏗 3 __init__.py (App Factory)
+	from flask import Flask
+	from .extensions import db, migrate
+
+	def create_app(config_class="config.Config"):
+		app = Flask(__name__)
+		app.config.from_object(config_class)
+
+		db.init_app(app)
+		migrate.init_app(app, db)
+
+		# register blueprints
+		from .main import main_bp
+		from .blog import blog_bp
+		from .shop import shop_bp
+		from .topic import topic_bp
+
+		app.register_blueprint(main_bp)
+		app.register_blueprint(blog_bp, url_prefix="/blog")
+		app.register_blueprint(shop_bp, url_prefix="/shop")
+		app.register_blueprint(topic_bp, url_prefix="/topics")
+
+		return app
+🧩 4 Blueprint Example
+	main/__init__.py
+		from flask import Blueprint
+		main_bp = Blueprint("main", __name__)
+		from . import routes
+	main/routes.py
+		from flask import render_template
+		from . import main_bp
+		from app.models import Post, Product
+
+		@main_bp.route("/")
+		def home():
+			featured_posts = Post.query.filter_by(is_featured=True).limit(3).all()
+			featured_products = Product.query.filter_by(is_featured=True).limit(3).all()
+
+			return render_template(
+				"pages/home.html",
+				posts=featured_posts,
+				products=featured_products
+			)
+🗄 5️ config.py (PostgreSQL)
+	import os
+	from dotenv import load_dotenv
+	load_dotenv()
+	class Config:
+		SECRET_KEY = os.getenv("SECRET_KEY")
+		SQLALCHEMY_DATABASE_URI = os.getenv("DATABASE_URL")
+		SQLALCHEMY_TRACK_MODIFICATIONS = False
+	.env
+		SECRET_KEY=supersecret
+		DATABASE_URL=postgresql://user:password@localhost/bupora
+🚀 6️ run.py
+	from app import create_app
+	app = create_app()
+	if __name__ == "__main__":
+		app.run(debug=True)
+	Production sau này:
+		gunicorn run:app
+🧠 7️ Database Init Flow
+	flask db init
+	flask db migrate -m "init"
+	flask db upgrade
+🎨 8️ Tailwind v4.2.0
+	Bạn đã có:
+		input.css
+		output.css
+	base.html
+		<link href="{{ url_for('static', filename='css/output.css') }}" rel="stylesheet">
+🧨 9️ Production Mindset Từ Đầu
+	Đừng làm mấy thứ này:
+		Không viết tất cả route trong 1 file
+		Không để model lộn xộn
+		Không hardcode config
+		Không deploy bằng flask run
+🧠 Quan trọng hơn code
+	Kiến trúc này cho phép bạn:
+		Hybrid content + shop
+		Mở admin panel sau
+		Thêm API nếu cần
+		Tách microservice nếu traffic lớn
+	Bạn đang build system, không phải website.
+=================
+A) Viết models chuẩn cho blog + shop
+B) Thiết kế base.html layout trước
+C) Tạo admin mini để nhập bài viết
+	A) Viết models chuẩn cho blog + shop
+		Vì bạn đang build hybrid brand (content + merch + affiliate), model phải:
+			Không quá phức tạp lúc đầu
+			Nhưng đủ linh hoạt cho 2–3 năm tới
+			Chuẩn SEO
+			Không phải refactor khi traffic tăng
+		🧱 1 Nguyên tắc thiết kế model cho Bupora
+			Vì Bupora là:
+				Lifestyle / Culture brand xoay quanh dog lovers
+				Affiliate = cashflow
+				Merch = brand identity
+			Nên structure phải cho phép:
+				1 bài viết liên kết nhiều sản phẩm
+				1 sản phẩm có thể là merch hoặc affiliate
+				1 topic có nhiều bài
+				Collection có thể gắn với shop
+		🗄 2️ models.py (Production-ready version)
+			Đây là bản chuẩn, bạn có thể copy dùng ngay.
+				📌 1. Topic Model
+					from datetime import datetime
+					from app.extensions import db
+
+					class Topic(db.Model):
+						__tablename__ = "topics"
+
+						id = db.Column(db.Integer, primary_key=True)
+						name = db.Column(db.String(120), nullable=False)
+						slug = db.Column(db.String(150), unique=True, nullable=False)
+						description = db.Column(db.Text)
+
+						created_at = db.Column(db.DateTime, default=datetime.utcnow)
+
+						posts = db.relationship("Post", backref="topic", lazy=True)
+
+						def __repr__(self):
+							return f"<Topic {self.name}>"
+				📌 2. Post Model (Blog / Gift Guide / Lifestyle)
+					class Post(db.Model):
+						__tablename__ = "posts"
+
+						id = db.Column(db.Integer, primary_key=True)
+
+						title = db.Column(db.String(255), nullable=False)
+						slug = db.Column(db.String(255), unique=True, nullable=False)
+
+						content = db.Column(db.Text, nullable=False)
+						excerpt = db.Column(db.Text)
+
+						post_type = db.Column(
+							db.String(50),
+							default="blog"
+						)  # blog | gift_guide | lifestyle
+
+						is_featured = db.Column(db.Boolean, default=False)
+						is_published = db.Column(db.Boolean, default=True)
+
+						topic_id = db.Column(db.Integer, db.ForeignKey("topics.id"))
+
+						created_at = db.Column(db.DateTime, default=datetime.utcnow)
+						updated_at = db.Column(db.DateTime, onupdate=datetime.utcnow)
+
+						products = db.relationship(
+							"PostProduct",
+							back_populates="post",
+							cascade="all, delete-orphan"
+						)
+
+						def __repr__(self):
+							return f"<Post {self.title}>"
+				📌 3. Product Model (Merch + Affiliate)
+					class Product(db.Model):
+						__tablename__ = "products"
+
+						id = db.Column(db.Integer, primary_key=True)
+
+						name = db.Column(db.String(255), nullable=False)
+						slug = db.Column(db.String(255), unique=True, nullable=False)
+
+						product_type = db.Column(
+							db.String(50),
+							nullable=False
+						)  # merch | affiliate
+
+						price = db.Column(db.Float)
+
+						affiliate_url = db.Column(db.Text)
+						image_url = db.Column(db.Text)
+
+						is_featured = db.Column(db.Boolean, default=False)
+						is_active = db.Column(db.Boolean, default=True)
+
+						created_at = db.Column(db.DateTime, default=datetime.utcnow)
+
+						posts = db.relationship(
+							"PostProduct",
+							back_populates="product",
+							cascade="all, delete-orphan"
+						)
+
+						def __repr__(self):
+							return f"<Product {self.name}>"
+				📌 4. PostProduct (Many-to-Many)
+					Một bài viết có thể chứa nhiều sản phẩm.
+					class PostProduct(db.Model):
+						__tablename__ = "post_products"
+
+						id = db.Column(db.Integer, primary_key=True)
+
+						post_id = db.Column(
+							db.Integer,
+							db.ForeignKey("posts.id"),
+							nullable=False
+						)
+
+						product_id = db.Column(
+							db.Integer,
+							db.ForeignKey("products.id"),
+							nullable=False
+						)
+
+						position = db.Column(db.Integer)  # thứ tự hiển thị
+
+						post = db.relationship("Post", back_populates="products")
+						product = db.relationship("Product", back_populates="posts")
+				📌 5. Collection Model (cho shop)
+					class Collection(db.Model):
+						__tablename__ = "collections"
+
+						id = db.Column(db.Integer, primary_key=True)
+
+						name = db.Column(db.String(150), nullable=False)
+						slug = db.Column(db.String(150), unique=True, nullable=False)
+						description = db.Column(db.Text)
+
+						created_at = db.Column(db.DateTime, default=datetime.utcnow)
+
+						products = db.relationship(
+							"CollectionProduct",
+							back_populates="collection",
+							cascade="all, delete-orphan"
+						)
+				📌 6. CollectionProduct
+					class CollectionProduct(db.Model):
+						__tablename__ = "collection_products"
+
+						id = db.Column(db.Integer, primary_key=True)
+
+						collection_id = db.Column(
+							db.Integer,
+							db.ForeignKey("collections.id"),
+							nullable=False
+						)
+
+						product_id = db.Column(
+							db.Integer,
+							db.ForeignKey("products.id"),
+							nullable=False
+						)
+
+						collection = db.relationship("Collection", back_populates="products")
+						product = db.relationship("Product")
+	🧠 3️ Vì sao structure này mạnh?
+		Nó cho phép:
+		✅ 1 bài viết = 5 affiliate link
+		✅ 1 gift guide = 10 sản phẩm
+		✅ 1 merch = xuất hiện trong blog và collection
+		✅ Home page lấy featured post + featured product
+		✅ Sau này thêm review rating rất dễ
+	🚀 4️ Sau khi thêm models
+		flask db migrate -m "init core models"
+		flask db upgrade
+	🧠 5️ Nâng cấp sau này (chưa cần bây giờ)
+		Tag model
+		SEO metadata table
+		User + Admin auth
+		View tracking
+		Click tracking affiliate
+		Nhưng không cần bây giờ.
+====================
+A) Viết route logic cho blog + topic chuẩn SEO
+B) Thiết kế database index tối ưu hiệu suất
+C) Thiết kế slug system tự động generate
+
+
+==================================================================
+# ===== 🏗 production structure =====
+site/
+	│
+	├── app/
+	│   ├── __init__.py
+	│   ├── extensions.py
+	│   ├── models.py
+	│   │
+	│   ├── main/
+	│   │   ├── __init__.py
+	│   │   └── routes.py
+	│   │
+	│   ├── blog/
+	│   │   ├── __init__.py
+	│   │   └── routes.py
+	│   │
+	│   ├── shop/
+	│   │   ├── __init__.py
+	│   │   └── routes.py
+	│   │
+	│   ├── topic/
+	│   │   ├── __init__.py
+	│   │   └── routes.py
+	│   │
+	│   ├── templates/
+	│   │   ├── base.html
+	│   │   ├── components/
+	│   │   │   ├── navbar.html
+	│   │   │   ├── footer.html
+	│   │   │   ├── hero.html
+	│   │   │   └── card_article.html
+	│   │   ├── pages/
+	│   │   │   ├── home.html
+	│   │   │   ├── topic.html
+	│   │   │   ├── article.html
+	│   │   │   └── collection.html
+	│   │
+	│   └── static/
+	│       ├── css/
+	│       │   ├── input.css
+	│       │   └── output.css
+	│       ├── js/
+	│       │   └── script.css
+	│       └── img/
+	│
+	├── migrations/
+	├── config.py
+	├── run.py
+	├── requirements.txt
+	├── .venv/
+	├── .env
+	└── .gitignore
+
+# ===== .gitignore =====
+.venv/
+__pycache__/
+.env
+
+# ===== ⚙️ app/extensions.py =====
+from flask_sqlalchemy import SQLAlchemy
+from flask_migrate import Migrate
+
+db = SQLAlchemy()
+migrate = Migrate()
+
+# ===== 🏗 app/__init__.py =====
+
+from flask import Flask
+from .extensions import db, migrate
+
+def create_app(config_class="config.Config"):
+	app = Flask(__name__)
+	app.config.from_object(config_class)
+
+	db.init_app(app)
+	migrate.init_app(app, db)
+	
+	from .main import main_bp
+	from .blog import blog_bp
+	from .shop import shop_bp
+	from .topic import topic_bp
+
+	app.register_blueprint(main_bp)
+	app.register_blueprint(blog_bp, url_prefix="/blog")
+	app.register_blueprint(shop_bp, url_prefix="/shop")
+	app.register_blueprint(topic_bp, url_prefix="/topics")
+
+	return app
+
+# ===== app/main/__init__.py =====
+from flask import Blueprint
+
+main_bp = Blueprint("main", __name__)
+
+from . import routes
+
+# ===== app/main/routes.py =====
+from flask import render_template
+from . import main_bp
+from app.models import Post, Product
+
+@main_bp.route("/")
+def home():
+	featured_posts = Post.query.filter_by(is_featured=True).limit(3).all()
+	featured_products = Product.query.filter_by(is_featured=True).limit(3).all()
+
+	return render_template(
+		"pages/home.html",
+		posts=featured_posts,
+		products=featured_products
+	)
+
+# ===== app/static/css/input.css =====
+@import "tailwindcss";
+
+# ===== config.py =====
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+class Config:
+	SECRET_KEY = os.getenv("SECRET_KEY")
+	SQLALCHEMY_DATABASE_URI = os.getenv("DATABASE_URL")
+	SQLALCHEMY_TRACK_MODIFICATIONS = False
+	
+# ===== 🗄 config.py =====
+SECRET_KEY=supersecret
+DATABASE_URL=postgresql://user:password@localhost/bupora
+
+# ===== 🚀 run.py =====
+from app import create_app
+
+app = create_app()
+
+if __name__ == "__main__":
+	app.run(debug=True)
+
+# ===== shell (🖥 prod (bash) = linux + Gunicorn + systemd) =====
+🐧 Server → 🐍 Python → 📦 Clone code → 🧪 Virtualenv → 🔐 Env → 🔥 Gunicorn → ⚙️ systemd → 🌐 Nginx
+🧱 1️ SSH vào VPS bằng root → SSH vào server + clone + update
+	bash (linux)
+		ssh root@your_vps_ip
+🏗 2 cập nhật hệ thống (package)
+	bash (linux)
+		apt update
+		apt upgrade -y
+		apt install python3 python3-venv python3-pip git nginx -y
+🖥 3 lấy public key để cấu hình repo trên github
+	bash (linux)
+		ssh-keygen -t ed25519 -C "site" > save the key = ~/.ssh/site (/root/.ssh/site)
+		passphrase = (enter để bỏ trống)
+		chmod 600 ~/.ssh/site
+		chmod 644 ~/.ssh/site.pub
+		cat ~/.ssh/site.pub > (copy public key)
+🐙 4 cài đặt Repo trên github
+	Repo → Settings → Deploy Keys > Add deploy key
+		title = server
+		key = (paste public key)
+		allow write access = False
+🔐 5 cấu hình config
+	bash (linux)
+		nano ~/.ssh/config (/root/.ssh/config)
+			Host github.com
+			HostName github.com
+			User git
+			IdentityFile ~/.ssh/site.pub
+			IdentitiesOnly yes
+		chmod 600 ~/.ssh/config
+		ssh -T git@github.com # Test kết nối
+👤 5 Tạo user chạy app → chạy Gunicorn/Nginx | systemd service
+	bash (linux)
+		adduser www-data
+		User=www-data
+		Group=www-data
+		WorkingDirectory=/var/www/site
+🧠 6 cấu hình quyền user cho www-data đọc project chạy app do clone bằng root
+	bash (linux)
+		chmod -R o-rwx /var/www/site
+		chmod -R g+rx /var/www/site
+		chgrp -R www-data /var/www/site
+🧩 6 clone dự án về server
+	bash (linux)
+		git clone git@github.com:khoalabs/bupora.git /var/www/site
+		chown -R root:www-data /var/www/site
+		chmod -R 750 /var/www/site
+🐍 7 tạo virtualenv
+	bash (linux)
+		cd /var/www/site
+		python3 -m venv .venv
+		source .venv/bin/activate
+		python3 -m pip install --upgrade pip
+		pip install -r requirements.txt # 📦 cài package cần thiết
+		flask db init
+		flask db migrate -m "Initial migration" # flask db migrate -m "init"
+		flask db upgrade
+		gunicorn run:app
+		
+🔐 8 cài đặt env
+	bash (linux)
+		sudo nano /etc/site.env
+			ENV=prod
+			SECRET_KEY=super-random-long-secret
+			DATABASE_URL=postgresql://user:pass@localhost/prod
+			DEBUG=False
+		sudo chmod 600 /etc/site.env
+🧪 9 Test Gunicorn trước khi đụng systemd
+	bash (linux)
+		source .venv/bin/activate
+		gunicorn --workers 3 --bind 127.0.0.1:5000 "app:create_app()"
+
+⚙️ 10 tạo systemd service (thêm worker.service, scheduler sau)
+	bash (linux)
+		sudo nano /etc/systemd/system/site.service
+			[Unit]
+			Description=Flask Application
+			After=network.target
+
+			[Service]
+			User=www-data
+			Group=www-data
+			WorkingDirectory=/var/www/site
+			
+			EnvironmentFile=/etc/site.env
+			
+			ExecStart=/var/www/site/.venv/bin/gunicorn --workers 3 --bind 127.0.0.1:5000 --timeout 60 'app:create_app()'
+			Restart=always
+			RestartSec=5
+
+			[Install]
+			WantedBy=multi-user.target
+
+🚀 11 Kích hoạt service
+	bash (linux)
+		sudo systemctl daemon-reload # reload để systemd biết service mới tồn tại
+		sudo systemctl enable site # tạo symlink trong multi-user.target (auto start khi reboot)
+		sudo systemctl start site # Start service
+		sudo systemctl status site # Kiểm tra trạng thái | Active: active (running)
+		journalctl -u site -f # ✅ Xem log realtime (cực quan trọng)
+
+🌐 12 Cấu hình Nginx
+	bash (linux)
+		sudo nano /etc/nginx/sites-available/site
+			server {
+				listen 80;
+				server_name your_domain_or_ip;
+				
+				location / {
+					proxy_pass http://127.0.0.1:5000;
+					proxy_set_header Host $host;
+					proxy_set_header X-Real-IP $remote_addr;
+					proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+				}
+			}
+		sudo ln -s /etc/nginx/sites-available/site /etc/nginx/sites-enabled
+		sudo nginx -t
+		sudo systemctl restart nginx
+
+🔥 cài certbot cho domain + SSL
+	bash (linux)
+		apt install certbot python3-certbot-nginx -y
+		certbot --nginx -d yourdomain.com
+
+🔥 cập nhật dự án (sau này)
+	bash (linux)
+		cd /var/www/site
+		git remote set-url origin git@github.com:khoalabs/bupora.git
+		git remote -v
+		git fetch --all
+		git reset --hard origin/main
+		source .venv/bin/activate
+		pip install -r requirements.txt
+		flask db upgrade
+		sudo systemctl restart site
+
+Thứ tự đúng là:
+	Clone code
+	Setup venv
+	Install dependencies
+	Test gunicorn
+	Tạo /etc/site.env
+	Tạo systemd
+	Cấu hình nginx
+
+==========================
+site/
+	│
+	├── app/
+	│   ├── __init__.py
+	│   ├── models.py
+	│   ├── routes.py # main, blog, shop, topic, api
+	│   ├── utils.py
+	│   │
+	│   ├── templates/
+	│   │   ├── base.html
+	│   │   ├── navbar.html
+	│   │   ├── footer.html
+	│   │   ├── hero.html
+	│   │   ├── card_article.html
+	│   │   ├── home.html
+	│   │   ├── topic.html
+	│   │   ├── article.html
+	│   │   └── collection.html
+	│   │
+	│   └── static/
+	│				├── css/
+	│       │   ├── input.css      ✅ tailwind source
+	│       │   └── output.css     ✅ tailwind build
+	│				├── js/
+	│       │   └── script.js
+	│				└── img/
+	│
+	├── migrations/
+	├── site.db
+	├── config.py
+	├── run.py
+	├── package-lock.json
+	├── package.json
+	├── README.md
+	├── requirements.txt
+	├── .venv/
+	└── .gitignore
+	
+	
+postgresql.org > v18.2 > windows x86-64 (dev) | linux (prod)
+	✅ PostgreSQL Server
+	⛔ pgAdmin 4
+	⛔ Stack Builder
+	✅ Command Line Tools
+	🔐 Password cho user postgres = pass123
+	🌐 Port = 5432
+	🎯 Locale = en-US
+
+	Tạo database và role (không dùng superuser (postgres))
+			flask db init
+			flask db migrate -m "initial"
+			flask db upgrade
+
+========== SHOP ==========
+🥇 TIER 1 – BRAND CORE (40% | IDENTITY)
+	👉 Đây là thứ làm nên Bupora
+	Loại design:
+		clean
+		minimal
+		không quá meme
+		có thể mặc lâu dài
+	👉 Mục tiêu:
+		tạo identity
+		giống kiểu:
+			brand mặc được mỗi ngày
+			không bị cringe
+	📌 Đây là thứ bạn đặt lên:
+		homepage
+		bestseller section
+🥈 TIER 2 – EMOTIONAL / LIFESTYLE (40% | CONNECTION)
+	👉 Đây là thứ bán tốt + build connection
+	Loại design:
+		dog mom / dog dad
+		life with dogs
+		relatable nhẹ
+	👉 Mục tiêu:
+		người ta thấy “đây là mình”
+	📌 Đây là:
+		cầu nối giữa brand và sale
+🥉 TIER 3 – FUNNY / VIRAL (20% | TRAFICT + SALE CÓ KIỂM SOÁT)
+	👉 Đây là thứ kéo traffic + bán nhanh
+	Loại:
+		funny quotes
+		meme nhẹ
+	⚠️ Nhưng:
+		KHÔNG làm quá nhiều
+		KHÔNG để nó define brand
+	👉 Vì:
+		meme = bán nhanh nhưng giết brand nếu lạm dụng
+🚫 TIER 4 – KHÔNG NÊN LÀM (cho Bupora)
+	design quá generic kiểu Amazon spam
+	trend rẻ tiền
+	design không liên quan đến “dog lifestyle”
+	👉 Những cái này:
+		→ để cho Amazon, TeePublic, KHÔNG đưa lên Bupora
