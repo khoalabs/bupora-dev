@@ -1,0 +1,318 @@
+@import "tailwindcss";
+
+/* ===== LIGHT MODE ===== */
+:root {
+  /* fonts */
+  --font-display: 'Cal Sans', ui-sans-serif, system-ui, sans-serif;
+  --font-sans: 'DM Sans', ui-sans-serif, system-ui, sans-serif;
+
+  /* brand */
+  --brand-primary: #0073c7; /* amazon #0073c7 , me #2f6fed */
+  --primary: #f8bd19; /* amazon #f8bd19 , me #f08a1f */
+
+  /* background system */
+  --bg: #ffffff;
+  --bg-inverse: #1f1f1f;
+  --surface: #f7f7f8;
+
+  --stroke: #e5e5e5; /* default */
+  --stroke-subtle: #f0f0f0; /* lighter (divider, subtle lines) */
+  --stroke-muted: #eaeaea; /* slightly softer (cards, input nhẹ) */
+  --stroke-strong: #d4d4d4; /* stronger (focus, hover, emphasis) */
+  --stroke-heavy: #bfbfbf; /* strongest (active / pressed / dark sections) */
+  --stroke-inverse: #ffffff20; /* for dark backgrounds */
+
+  /* text */
+  --text: #1f1f1f;
+  --text-muted: #6b6b6b;
+  --text-inverse:#f5f5f5;
+
+  /* interaction */
+  --link: var(--brand);
+  --link-hover: #4a86ff;
+  --link-active: #1f56c8;
+
+  --cta: var(--primary);
+  --cta-hover: #f8bd19; /* amazon #f8bd19 , me #ff9a2e */
+  --cta-active: #ff6200; /* amazon #ff6200 , me #d96f00 */
+
+  /* states */
+  --focus: #2f6fed;
+  --focus-ring: 0 0 0 3px rgba(47, 111, 237, 0.25);
+
+  --success: #22c55e;
+  --warning: #f59e0b;
+  --danger: #ef4444;
+
+
+}
+
+/* =========================
+  DARK MODE
+========================= */
+.dark {
+  --bg: #0f0f10;
+  --bg-inverse: #ffffff;
+  --surface: #1a1a1c;
+  --border: #2a2a2a;
+
+  --stroke: rgba(255, 255, 255, 0.12);
+  --stroke-subtle: rgba(255, 255, 255, 0.06);
+  --stroke-muted: rgba(255, 255, 255, 0.08);
+  --stroke-strong: rgba(255, 255, 255, 0.18);
+  --stroke-heavy: rgba(255, 255, 255, 0.24);
+  --stroke-inverse: rgba(0, 0, 0, 0.2);
+
+  --text: #f5f5f5;
+  --text-muted: #a0a0a0;
+  --text-inverse:#1f1f1f;
+
+  --link-hover: #6ba3ff;
+  --link-active: #2f6fed;
+
+  --cta: #ff9a2e;
+  --cta-hover: #ffb157;
+  --cta-active: #e8891f;
+
+  --focus: #4a86ff;
+  --focus-ring: 0 0 0 3px rgba(106, 163, 255, 0.25);
+
+  --success: #2dd46f;
+  --warning: #ffb020;
+  --danger: #ff4d4f;
+}
+
+@theme {
+  /* fonts */
+  --font-display: var(--font-display);
+  --font-sans: var(--font-sans);
+
+  /* colors */
+  --color-canvas: var(--bg);
+  --color-canvas-inverse: var(--bg-inverse);
+  --color-surface: var(--surface);
+  --color-border: var(--border);
+
+  --color-stroke: var(--stroke);
+  --color-stroke-subtle: var(--stroke-subtle);
+  --color-stroke-muted: var(--stroke-muted);
+  --color-stroke-strong: var(--stroke-strong);
+  --color-stroke-heavy: var(--stroke-heavy);
+  --color-stroke-inverse: var(--stroke-inverse);
+
+  --color-fg: var(--text);
+  --color-fg-muted: var(--text-muted);
+  --color-fg-inverse: var(--text-inverse);
+
+  --color-brand: var(--brand);
+  --color-primary: var(--primary);
+
+  --color-link: var(--link);
+  --color-link-hover: var(--link-hover);
+  --color-link-active: var(--link-active);
+
+  --color-cta: var(--cta);
+  --color-cta-hover: var(--cta-hover);
+  --color-cta-active: var(--cta-active);
+
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-danger: var(--danger);
+
+  /* focus */
+  --color-focus: var(--focus);
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    background-color: var(--color-canvas);
+    color: var(--color-fg);
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scrollbar-gutter: both-edges;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    color: var(--color-fg);
+    line-height: 1.2; /* letter-spacing: 0.03em; */
+  }
+
+  p {
+    color: var(--color-fg);
+    line-height: 1.6;
+  }
+
+  small {
+    color: var(--color-fg-muted);
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: var(--color-link-hover);
+  }
+
+  a:active {
+    color: var(--color-link-active);
+  }
+
+  input, textarea, select {
+    font: inherit;
+    color: var(--color-fg);
+    background: var(--color-surface);
+    border: 1px solid var(--color-stroke);
+    border-radius: 12px;
+  }
+
+  input:focus, textarea:focus, select:focus {
+    outline: none;
+    box-shadow: var(--color-focus-ring);
+    border-color: var(--color-focus);
+  }
+
+  ::selection {
+    background: var(--color-brand);
+    color: white;
+  }
+
+}
+
+@layer components {
+  .nav {
+    background: var(--color-canvas);
+    border-bottom: 1px solid var(--color-stroke);
+    letter-spacing: 0.005em;
+  }
+
+  .nav-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+  }
+
+  .nav-link {
+    position: relative;
+    color: var(--color-fg);
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.2s ease;
+    font-weight: 700;
+  }
+
+  .nav-link:hover,
+  .nav-link:focus-visible {
+    color: var(--color-link);
+  }
+  
+  .nav-link:hover::after,
+  .nav-link:focus-visible::after {
+    width: 100%;
+  }
+
+  .nav-link:active {
+    color: var(--color-link-active);
+    font-weight: 600;
+  }
+
+  .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0;
+    height: 3px;
+    background-color: currentColor;
+  }
+
+  article {
+    color: var(--color-fg);
+  }
+
+  .link {
+    color: var(--color-link);
+  }
+
+  .link:hover {
+    color: var(--color-link-hover);
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-4 py-2 text-sm font-medium transition-colors duration-150 ease-out;
+    background: var(--color-surface);
+    color: var(--color-fg);
+    border: 1px solid var(--color-stroke);
+    cursor: pointer;
+  }
+
+  .btn-primary {
+    background: var(--color-cta);
+    color: var(--color-fg-inverse);
+    border: 1px solid transparent;
+  }
+
+  .btn-primary:hover {
+    background: var(--color-cta-hover);
+  }
+
+  .btn-primary:active {
+    background: var(--color-cta-active);
+  }
+
+  .btn-outline {
+    background: transparent;
+    color: var(--color-fg);
+    border: 1px solid var(--color-stroke);
+  }
+
+  .btn-outline:hover {
+    background: var(--color-surface);
+    border-color: var(--color-stroke-strong);
+  }
+
+  .btn-ghost {
+    background: transparent;
+    color: var(--color-fg);
+    border: 1px solid transparent;
+  }
+
+  .btn-ghost:hover {
+    background: var(--color-surface);
+  }
+
+  .btn:focus-visible {
+    outline: none;
+    box-shadow: var(--focus-ring);
+  }
+
+  .btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  /* remove default search clear button (Chrome/Safari) */
+  input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+  }
+
+  input[type="search"] {
+    -webkit-appearance: none;
+  }
+
+  .input {
+    @apply px-3 py-2 text-sm rounded-full;
+    background: var(--color-surface);
+    border: 1px solid var(--color-stroke);
+    padding: 0.5rem 0.75rem;
+  }  
+}
+

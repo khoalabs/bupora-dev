@@ -1,0 +1,474 @@
+{% extends "base.html" %}
+
+{% block title %}
+Bupora | Dog Breeds, Care Guides & Lifestyle
+{% endblock %}
+
+{% block description %}
+Explore dog breeds, care guides, and expert tips to build a better life with your dog.
+{% endblock %}
+
+{% block content %}
+
+<div class="max-w-6xl mx-auto px-6 space-y-12 md:space-y-14">
+
+<!-- ======================
+HERO
+====================== -->
+
+<section class="pt-8 text-center max-w-5xl mx-auto px-4 sm:px-0">
+
+<h1 class="text-4xl md:text-5xl font-heading font-bold tracking-tight leading-tight max-w-xl text-balance text-gray-900 mx-auto">
+Life Is Better With Dogs
+</h1>
+
+<p class="mt-4 text-lg text-gray-600 leading-normal max-w-xl mx-auto">
+Guides, tips, and inspiration for life with dogs.
+</p>
+
+<div class="font-medium tracking-wide mt-6 flex justify-center flex-wrap items-center gap-3 text-sm text-gray-500">
+
+<span>🐕 100+ Breeds</span>
+
+<span class="hidden sm:block h-6 w-px bg-gray-300"></span>
+
+<span>📚 Care Guides</span>
+
+<span class="hidden sm:block h-6 w-px bg-gray-300"></span>
+
+<span>❤️ Dog Lovers</span>
+
+</div>
+
+<hr class="mt-10 border-gray-200 max-w-xl mx-auto">
+
+</section>
+
+
+
+<!-- ======================
+FEATURED
+====================== -->
+
+<section>
+
+<p class="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-4">
+Featured Guide
+</p>
+
+<div class="grid md:grid-cols-2 md:items-stretch gap-8 md:gap-10 items-center group">
+
+<a href="/blog/how-to-choose-a-dog-breed/" class="block overflow-hidden rounded-2xl" aria-label="How to choose the right dog breed for your lifestyle">
+
+<img
+src="https://images.unsplash.com/photo-1558788353-f76d92427f16"
+alt="Dog sitting with owner outdoors"
+width="1200"
+height="800"
+loading="eager"
+fetchpriority="high"
+class="w-full h-64 md:h-80 object-cover transition duration-300 ease-out hover:-translate-y-1 group-hover:scale-105">
+
+</a>
+
+<div class="flex flex-col justify-between h-full">
+
+<div>
+
+<span class="text-xs text-primary font-semibold uppercase tracking-wider">
+Dog Breeds
+</span>
+
+<h2 class="text-3xl font-heading font-semibold mt-3 tracking-tight leading-tight group-hover:text-primary transition-colors">
+<a href="/blog/how-to-choose-a-dog-breed/">
+How to Choose the Right Dog Breed for Your Lifestyle
+</a>
+</h2>
+
+<p class="mt-4 text-gray-600 leading-normal">
+Learn how to choose the perfect dog based on your lifestyle,
+home environment, and activity level.
+</p>
+
+</div>
+
+<a
+href="/blog/how-to-choose-a-dog-breed/"
+class="inline-flex items-center mt-6 md:mt-0 text-primary font-medium hover:underline">
+
+Read the guide →
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ======================
+POPULAR GUIDES
+====================== -->
+
+<section>
+
+<div class="mb-10">
+
+<p class="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-2">
+Guides
+</p>
+
+<h2 class="text-2xl md:text-3xl font-heading font-semibold tracking-tight">
+Popular Guides
+</h2>
+
+<p class="mt-2 text-gray-600 max-w-xl">
+Helpful guides for choosing and caring for your dog.
+</p>
+
+</div>
+
+<div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+<a href="/blog/best-dogs-for-apartments/" class="group block p-5 rounded-xl border border-gray-200 hover:border-primary hover:bg-white hover:shadow-sm transition">
+
+<h3 class="font-semibold group-hover:text-primary transition-colors">
+Best Dogs for Apartments
+</h3>
+
+<p class="mt-2 text-sm text-gray-600">
+Small and quiet dog breeds perfect for apartment living.
+</p>
+
+</a>
+
+
+<a href="/blog/best-family-dogs/" class="group block p-5 rounded-xl border border-gray-200 hover:border-primary hover:bg-white hover:shadow-sm transition">
+
+<h3 class="font-semibold group-hover:text-primary transition-colors">
+Best Family Dogs
+</h3>
+
+<p class="mt-2 text-sm text-gray-600">
+Friendly dog breeds that are great with kids and families.
+</p>
+
+</a>
+
+
+<a href="/blog/hypoallergenic-dogs/" class="group block p-5 rounded-xl border border-gray-200 hover:border-primary hover:bg-white hover:shadow-sm transition">
+
+<h3 class="font-semibold group-hover:text-primary transition-colors">
+Hypoallergenic Dogs
+</h3>
+
+<p class="mt-2 text-sm text-gray-600">
+Dog breeds that shed less and may suit allergy sufferers.
+</p>
+
+</a>
+
+
+<a href="/blog/low-maintenance-dogs/" class="group block p-5 rounded-xl border border-gray-200 hover:border-primary hover:bg-white hover:shadow-sm transition">
+
+<h3 class="font-semibold group-hover:text-primary transition-colors">
+Low Maintenance Dogs
+</h3>
+
+<p class="mt-2 text-sm text-gray-600">
+Easy-care breeds for busy lifestyles.
+</p>
+
+</a>
+
+</div>
+
+</section>
+
+<!-- ======================
+POPULAR TOPICS
+====================== -->
+
+<section>
+
+<div class="mb-10">
+
+<p class="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-2">
+Explore
+</p>
+
+<h2 class="text-2xl md:text-3xl font-heading font-semibold tracking-tight">
+Popular Topics
+</h2>
+
+<p class="mt-2 text-gray-600 max-w-xl">
+Explore our main guides for dog lovers.
+</p>
+
+</div>
+
+<div class="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
+
+<!-- Breeds -->
+
+<a href="/breeds/" class="group block">
+
+<div class="overflow-hidden rounded-2xl">
+
+<img
+src="https://images.unsplash.com/photo-1558788353-f76d92427f16"
+loading="lazy"
+decoding="async"
+alt="Dog breeds guide"
+class="w-full h-52 md:h-56 object-cover transition duration-300 ease-out hover:-translate-y-1 group-hover:scale-105">
+
+</div>
+
+<h3 class="mt-4 text-lg font-semibold group-hover:text-primary transition-colors">
+Dog Breeds
+</h3>
+
+<p class="mt-1 text-sm text-gray-600">
+Explore popular breeds and find the perfect dog.
+</p>
+
+</a>
+
+<!-- Care -->
+
+<a href="/care/" class="group block">
+
+<div class="overflow-hidden rounded-2xl">
+
+<img
+src="https://images.unsplash.com/photo-1601758228041-f3b2795255f1"
+loading="lazy"
+decoding="async"
+alt="Dog care tips"
+class="w-full h-52 md:h-56 object-cover transition duration-300 ease-out hover:-translate-y-1 group-hover:scale-105">
+
+</div>
+
+<h3 class="mt-4 text-lg font-semibold group-hover:text-primary transition-colors">
+Dog Care
+</h3>
+
+<p class="mt-1 text-sm text-gray-600">
+Training, grooming, nutrition, and health advice for your dog.
+</p>
+
+</a>
+
+<!-- Life -->
+
+<a href="/life/" class="group block">
+
+<div class="overflow-hidden rounded-2xl">
+
+<img
+src="https://images.unsplash.com/photo-1507146426996-ef05306b995a"
+loading="lazy"
+decoding="async"
+alt="Life with dogs"
+class="w-full h-52 md:h-56 object-cover transition duration-300 ease-out hover:-translate-y-1 group-hover:scale-105">
+
+</div>
+
+<h3 class="mt-4 text-lg font-semibold group-hover:text-primary transition-colors">
+Life With Dogs
+</h3>
+
+<p class="mt-1 text-sm text-gray-600">
+Activities, routines, and inspiration for everyday life with dogs.
+</p>
+
+</a>
+
+</div>
+
+</section>
+
+<!-- ======================
+LATEST ARTICLES
+====================== -->
+
+<section>
+
+<div class="flex items-center justify-between mb-8">
+
+<h2 class="text-2xl md:text-3xl font-heading font-semibold tracking-tight">
+Latest Articles
+</h2>
+
+<a href="/blog/" class="text-sm text-primary font-medium hover:underline">
+View all →
+</a>
+
+</div>
+
+<div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+<!-- Article 1 -->
+
+<article class="group">
+
+<a href="/blog/how-to-choose-a-dog-breed/" class="block overflow-hidden rounded-xl">
+
+<img
+src="https://images.unsplash.com/photo-1558788353-f76d92427f16"
+loading="lazy"
+decoding="async"
+alt="How to choose a dog breed"
+class="w-full h-52 object-cover transition duration-300 ease-out hover:-translate-y-1 group-hover:scale-105">
+
+</a>
+
+<div class="mt-4">
+
+<a href="/breeds/" class="text-xs text-gray-500 uppercase tracking-wide hover:underline">
+Breeds
+</a>
+
+<h3 class="mt-2 text-lg font-semibold leading-snug group-hover:text-primary transition-colors">
+
+<a href="/blog/how-to-choose-a-dog-breed/" aria-label="How to choose the right dog breed for your lifestyle">
+How to Choose the Right Dog Breed for Your Lifestyle
+</a>
+
+</h3>
+
+<p class="mt-2 text-sm text-gray-600">
+Learn how to choose the perfect dog based on lifestyle and activity level.
+</p>
+
+</div>
+
+</article>
+
+
+<!-- Article 2 -->
+
+<article class="group">
+
+<a href="/blog/dog-grooming-basics/" class="block overflow-hidden rounded-xl">
+
+<img
+src="https://images.unsplash.com/photo-1601758228041-f3b2795255f1"
+loading="lazy"
+decoding="async"
+alt="Dog grooming tips"
+class="w-full h-52 object-cover transition duration-300 ease-out hover:-translate-y-1 group-hover:scale-105">
+
+</a>
+
+<div class="mt-4">
+
+<a href="/care/" class="text-xs text-gray-500 uppercase tracking-wide hover:underline">
+Care
+</a>
+
+<h3 class="mt-2 text-lg font-semibold leading-snug group-hover:text-primary transition-colors">
+
+<a href="/blog/dog-grooming-basics/">
+Dog Grooming Basics Every Owner Should Know
+</a>
+
+</h3>
+
+<p class="mt-2 text-sm text-gray-600">
+Essential grooming tips to keep your dog clean and healthy.
+</p>
+
+</div>
+
+</article>
+
+
+<!-- Article 3 -->
+
+<article class="group">
+
+<a href="/blog/fun-activities-with-dogs/" class="block overflow-hidden rounded-xl">
+
+<img
+src="https://images.unsplash.com/photo-1507146426996-ef05306b995a"
+loading="lazy"
+decoding="async"
+alt="Activities with dogs"
+class="w-full h-52 object-cover transition duration-300 ease-out hover:-translate-y-1 group-hover:scale-105">
+
+</a>
+
+<div class="mt-4">
+
+<a href="/life/" class="text-xs text-gray-500 uppercase tracking-wide hover:underline">
+Life
+</a>
+
+<h3 class="mt-2 text-lg font-semibold leading-snug group-hover:text-primary transition-colors">
+
+<a href="/blog/fun-activities-with-dogs/">
+10 Fun Activities to Enjoy With Your Dog
+</a>
+
+</h3>
+
+<p class="mt-2 text-sm text-gray-600">
+Ideas to make everyday life more fun for you and your dog.
+</p>
+
+</div>
+
+</article>
+
+</div>
+
+</section>
+
+<!-- Divider -->
+<hr class="border-gray-200 max-w-xl mx-auto">
+
+<!-- ======================
+NEWSLETTER
+====================== -->
+<section class="pb-8">
+
+<div class="max-w-xl mx-auto text-center">
+
+<h2 class="text-2xl md:text-3xl font-heading font-semibold tracking-tight">
+Join the Dog Lover Community
+</h2>
+
+<p class="mt-3 text-gray-600">
+Get dog care tips, breed guides, and inspiration for life with dogs.
+</p>
+
+<form class="mt-6 flex flex-col sm:flex-row gap-4 justify-center" aria-label="Subscribe to dog newsletter">
+
+<input
+type="email"
+name="email"
+placeholder="Enter your email"
+required
+autocomplete="email"
+class="px-4 py-3 rounded-lg border border-gray-300 w-full sm:w-80 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary">
+
+<button
+type="submit"
+class="px-6 py-3 rounded-lg bg-primary text-white font-medium hover:opacity-90 transition">
+
+Subscribe
+
+</button>
+
+</form>
+
+<p class="mt-3 text-xs text-gray-500">
+No spam. Just helpful dog content.
+</p>
+
+</div>
+
+</section>
+
+{% endblock %}

@@ -1,0 +1,417 @@
+@import "tailwindcss";
+
+/* =========================
+  LIGHT MODE (default)
+========================= */
+:root {
+  /* =========================
+    TYPOGRAPHY
+  ========================= */
+  --font-heading: 'Cal Sans', ui-sans-serif, system-ui, sans-serif; /* "DM Serif Display", Georgia, Cambria, "Times New Roman", serif; */
+  --font-body: 'DM Sans', ui-sans-serif, system-ui, sans-serif;
+
+  /* =========================
+    RAW PALETTE
+  ========================= */
+  --white: #ffffff;
+  --black: #000000;
+  --brand: #2F6FED; /* logo, brand mark, key identity elements (favicon, nav highlight) #2F6FED #C76B3A #F08A1F */
+  --primary: #F08A1F; /* CTA (Buy / Add to cart, Checkout, Sale highlight), button */
+  --secondary: color-mix(in srgb, var(--brand) 70%, transparent); /* Learn more, View details, Back, Cancel, sub navigation */
+  --background: var(--white); /* card, section, page background, divider */
+  --surface: #f3f3f3;
+  --border: #e5e5e5;
+  --text: #1f1f1f;
+  --text-muted: #6b6b6b;
+  --text-subtle: #4b4b4b;
+  --text-inverse: #f3f3f3;
+  --success: #2e7d32;
+  --warning: #d32f2f;
+  --danger: #d32f2f;
+  --info: #d32f2f;
+ 
+  
+  --primary-hover: #FF9A2E;
+  --primary-active: #D97706;
+  --primary-disabled: #F5C58A;
+  --accent: #2F6FED; /* interaction, hover, nav */
+  --accent-hover: #4A86FF;
+  --accent-active: #1D4ED8;
+  --accent-muted: #93B7FF;
+  
+  --brand-50: #fff3e6;
+  --brand-hover: #F18F01; /* #D87A45 #F18F01 */
+  --brand-active: #A9562E; /* #F18F01 */
+
+  /* =========================
+    SEMANTIC COLORS
+  ========================= */
+  
+  
+  
+  --border-error: #d32f2f;
+  
+  --link: var(--brand);
+  
+  
+
+  /* =========================
+    TYPOGRAPHY TOKENS
+  ========================= */
+  --border-focus: var(--brand);
+  --text-heading: var(--text);
+  --text-body: var(--text);
+  --text-caption: var(--text-muted);
+  --text-meta: var(--text-muted);
+  --text-date: var(--text-muted);
+  --text-label: var(--text-subtle);
+  --text-price: var(--text);
+  --text-sale: var(--brand);
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
+  --shadow-md: 0 8px 20px rgba(0,0,0,0.08);
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+}
+
+.dark {
+  --brand-hover: #F18F01;
+  --brand-active: #C76B3A;
+  --background: #0f0f0f;
+  --surface: #1a1a1a;
+  --border: #2a2a2a;
+  --border-focus: var(--brand);
+  --border-error: #ef5350;
+  --text: #f5f5f5;
+  --text-muted: #a1a1a1;
+  --text-subtle: #c0c0c0;
+  --link: var(--brand);
+  --success: #4caf50;
+  --danger: #ef5350;
+}
+
+@theme {
+  /* =========================
+    TEXT FONTS
+  ========================= */
+  --font-heading: var(--font-heading);
+  --font-body: var(--font-body);
+
+  /* =========================
+    TEXT COLORS
+  ========================= */
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-primary-active: var(--primary-active);
+  --color-primary-disabled: var(--primary-disabled);
+  --color-primary-foreground: var(--white);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-accent-active: var(--accent-active);
+  --color-accent-muted: var(--accent-muted);
+  --color-accent-foreground: var(--white);
+
+  --color-heading: var(--text-heading);
+  --color-body: var(--text-body);
+  --color-muted: var(--text-muted);
+  --color-caption: var(--text-caption);
+  --color-meta: var(--text-meta);
+  --color-date: var(--text-date);
+  --color-label: var(--text-label);
+
+  --color-price: var(--text-price);
+  --color-sale: var(--text-sale);
+
+  /* =========================
+    SURFACES
+  ========================= */
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-border: var(--border);
+
+  /* =========================
+    BRAND
+  ========================= */
+  --color-brand: var(--brand);
+  --color-brand-hover: var(--brand-hover);
+  --color-brand-active: var(--brand-active);
+}
+
+@layer base {
+  h1, h2, h3, h4, h5, h6, nav {
+    font-family: var(--font-heading), ui-sans-serif, system-ui, sans-serif;
+    color: var(--color-heading);
+  }
+
+  h1, h2 {
+  letter-spacing: -0.01em;
+  }
+
+  h3, h4 {
+    letter-spacing: 0.01em;
+  }
+
+  h5, h6, nav {
+    letter-spacing: 0.03em;
+  }
+
+  nav {
+    font-family: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+    font-weight: 700; /* semibold */
+    letter-spacing: 0.005em;
+  }
+
+  body {
+    font-family: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+    color: var(--color-body);
+    background: var(--color-background);
+    scrollbar-gutter: both-edges;
+  }
+
+  article {
+    color: var(--color-body);
+  }
+
+  p {
+    color: inherit;
+  }
+
+  .prose {
+    color: var(--color-body);
+  }
+
+  /* remove default search clear button (Chrome/Safari) */
+  input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+  }
+
+  input[type="search"] {
+    -webkit-appearance: none;
+  }
+
+}
+
+@layer components {
+  .nav-link {
+    position: relative;
+    color: var(--color-body);
+    text-decoration: none;
+  }
+
+  .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0;
+    height: 3px;
+    background-color: currentColor;
+  }
+
+  .nav-link:hover,
+  .nav-link:focus-visible {
+    color: var(--color-brand);
+  }
+
+  .nav-link:hover::after,
+  .nav-link:focus-visible::after {
+    width: 100%;
+  }
+
+  .nav-link-active {
+    color: var(--color-body);
+    font-weight: 600;
+  }
+
+  .nav-link-active::after {
+    width: 100%;
+    opacity: 0.8;
+  }
+
+  .group:hover .nav-link,
+  .group:focus-visible .nav-link {
+    color: var(--color-brand);
+  }
+
+  .group:hover .nav-link::after,
+  .group:focus-visible .nav-link::after {
+    width: 100%;
+  }
+
+  .input {
+    @apply w-full rounded-md px-3 py-2 text-sm outline-none transition;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--text);
+  }
+
+  .input:focus {
+    border-color: var(--border-focus);
+    box-shadow: 0 0 0 2px color-mix(in srgb, var(--border-focus) 20%, transparent);
+  }
+
+  .input:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  .input.error {
+    border-color: var(--border-error);
+  }
+
+  .copied {
+    background-color: var(--color-surface-pressed);
+    color: var(--color-body);
+  }
+
+  .card {
+    @apply rounded-lg border border-border bg-surface;
+    padding: 16px;
+    transition: all 0.2s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-2px);
+    background: var(--surface-strong);
+  }
+
+  .card-blog-title {
+    @apply text-heading text-lg font-semibold;
+  }
+
+  .card-blog-meta {
+    @apply text-meta text-sm;
+  }
+
+  .card-product-title {
+    @apply text-body font-medium;
+  }
+
+  .card-product-price {
+    @apply text-price font-semibold;
+  }
+
+  .card-product-sale {
+    @apply text-sale text-sm;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center rounded-md px-4 py-2 text-sm font-medium transition;
+  }
+
+  .btn-primary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--brand);
+    color: white;
+    font-weight: 500;
+    padding: 0.75rem 1.5rem;
+    border-radius: var(--radius-md);
+  }
+
+  .btn-primary:hover {
+    background: var(--brand-hover);
+    filter: brightness(0.95);
+  }
+
+  .btn-primary:active {
+    background: var(--brand-active);
+  }
+
+  .btn-secondary {
+    background: var(--surface);
+    color: var(--text);
+    border: 1px solid var(--border);
+  }
+
+  .btn-secondary:hover {
+    background: var(--gray-100);
+  }
+
+  .btn-ghost {
+    background: transparent;
+    color: var(--text);
+  }
+
+  .btn-ghost:hover {
+    background: var(--surface);
+  }
+
+  .btn-danger {
+    background: #d32f2f;
+    color: white;
+  }
+
+}
+
+@layer utilities {
+  .text-heading {
+    color: var(--text-heading);
+    font-weight: 600;
+  }
+
+  .text-body {
+    color: var(--text-body);
+    line-height: 1.6;
+  }
+
+  .text-muted {
+    color: var(--text-muted);
+  }
+
+  .text-caption {
+    color: var(--text-caption);
+    font-size: 0.875rem;
+  }
+
+  .text-meta {
+    color: var(--text-meta);
+    font-size: 0.8rem;
+  }
+
+  .text-date {
+    color: var(--text-date);
+    font-size: 0.8rem;
+  }
+
+  .text-label {
+    color: var(--text-label);
+    font-size: 0.875rem;
+  }
+
+  .text-price {
+    color: var(--text-price);
+    font-weight: 600;
+  }
+
+  .text-sale {
+    color: var(--text-sale);
+    font-weight: 600;
+  }
+
+  .container-app {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 16px;
+  }
+
+  .stack {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .stack-sm {
+    gap: 8px;
+  }
+
+  .stack-lg {
+    gap: 24px;
+  }
+}
